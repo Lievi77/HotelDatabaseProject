@@ -5,7 +5,7 @@ Things to do:
 
 -Develop the UI (basic, no need for fancy things unless you have time). [Chris]
 
--Create Tables. [Lev]
+-Create Tables. [Lev] (Lev will post the backup files for the database here)
 
 -Populate Tables [Lev]
 
