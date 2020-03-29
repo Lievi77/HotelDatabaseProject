@@ -9,9 +9,9 @@ Things to do:
 
 -Populate Tables [Lev]
 
--Search for data to populate tables. [Chris]
+-Search for data to populate tables. [Chris] (hint: use Kaggle or any free data source)
 
--Begin report. [Chris + Lev] (Lev will type the report on Latex)
+-Begin report. [Chris + Lev] (Lev will type the final report on Latex)
 
 
 [Write Report Draft Here]
