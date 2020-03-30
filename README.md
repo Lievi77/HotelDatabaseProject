@@ -7,7 +7,7 @@ Things to do:
 
 -Create Schemas [Lev] {DONE}
 
--Create Tables. [Lev] (Lev will post the backup files for the database here)
+-Create Tables. [Lev] (Lev will post the backup files for the database here) 
 
 -Create Constraints [Lev]
 
@@ -27,7 +27,7 @@ Things to do:
 
 -AccountID is a foreign key on user, host and guest tables. 
 
--Created the user_info, host and guest Table (adding constraints shortly)
+-Created the user_info, host and guest Table (added constraints).
 
 
 
