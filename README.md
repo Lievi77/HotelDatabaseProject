@@ -11,9 +11,13 @@ Things to do:
 
 -Create Constraints [Lev]
 
+-Search for data to populate tables. [Chris] (hint: use Kaggle or any free data source)
+
+-Put the data in a folder called "Data", upload it to Github. [Chris]
+
 -Populate Tables [Lev]
 
--Search for data to populate tables. [Chris] (hint: use Kaggle or any free data source)
+-Do the specified Queries [Lev]
 
 -Begin report. [Chris + Lev] (Lev will type the final report on Latex)
 
