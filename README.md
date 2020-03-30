@@ -5,7 +5,11 @@ Things to do:
 
 -Develop the UI (basic, no need for fancy things unless you have time). [Chris]
 
+-Create Schemas [Lev] {DONE}
+
 -Create Tables. [Lev] (Lev will post the backup files for the database here)
+
+-Create Constraints [Lev]
 
 -Populate Tables [Lev]
 
