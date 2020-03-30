@@ -22,8 +22,12 @@ Things to do:
 -Begin report. [Chris + Lev] (Lev will type the final report on Latex)
 
 [Development Notes]:
+
 -AccountID, Name, LastName, phone number,city and country Cannot be null for "user" table.
-AccountID is a foreign key on user, host and guest tables. 
+
+-AccountID is a foreign key on user, host and guest tables. 
+
+-Created the user_info, host and guest Table (adding constraints shortly)
 
 
 
