@@ -9,9 +9,9 @@ Things to do:
 
 -Create Tables and Constrains. [Lev] {IN PROGRESS}
 
--Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {IN PROGRESS 1/2 COMPLETE}
+-Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {2/2 COMPLETE}
 
--Populate Tables [Lev]
+-Populate Tables [Lev]{Will try to get this done by friday or thursday}
 
 -Do the specified Queries [Chris]
 
@@ -24,6 +24,14 @@ Things to do:
 -AccountID is a foreign key on user, host and guest tables. 
 
 -Created the user_info, host and guest Table (added constraints).
+
+-Created Management schema tables: branch_info & info_table.
+
+-Added a column in branch_info table: branch_id. Must be unique.
+
+-Constraint for num_employees: must be positive and greater than zero.
+
+-For employee_info table: added a new column that relates a worker to its working branch: "works_for_branch_id" it cannot be null.
 
 
 [Write Report Draft Here]
