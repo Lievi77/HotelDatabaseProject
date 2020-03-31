@@ -25,6 +25,14 @@ Things to do:
 
 -Created the user_info, host and guest Table (added constraints).
 
+-Created Management schema tables: branch_info & info_table.
+
+-Added a column in branch_info table: branch_id. Must be unique.
+
+-Constraint for num_employees: must be positive and greater than zero.
+
+-For employee_info table: added a new column that relates a worker to its working branch: "works_for_branch_id" it cannot be null.
+
 
 [Write Report Draft Here]
 
