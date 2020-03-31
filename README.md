@@ -9,9 +9,9 @@ Things to do:
 
 -Create Tables and Constrains. [Lev] {IN PROGRESS}
 
--Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {IN PROGRESS 1/2 COMPLETE}
+-Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {2/2 COMPLETE}
 
--Populate Tables [Lev]
+-Populate Tables [Lev]{Will try to get this done by friday or thursday}
 
 -Do the specified Queries [Chris]
 
