@@ -11,7 +11,7 @@ Things to do:
 
 -Create Constraints [Lev]
 
--Search for data to populate tables. [Chris] (hint: use Kaggle or any free data source)
+-Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) (1/2 complete)
 
 -Put the data in a folder called "Data", upload it to Github. [Chris]
 
@@ -35,7 +35,7 @@ Things to do:
 
 [Write Report Draft Here]
 
-...
+Languages used: SQL PostgreSQL flavour and [Python?]
 
 ...
 
