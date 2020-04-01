@@ -1,5 +1,4 @@
-# Project for CSI2132 :Hotel Database Project
-
+# Project for CSI2132: Hotel Management Database Project
 
 # Things to do
 
@@ -9,7 +8,7 @@
 
 + Create Tables and Constrains. [Lev] {IN PROGRESS}
 
-+ Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {2/2 COMPLETE}
++ Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {2/2 DONE}
 
 + Populate Tables [Lev]{Will try to get this done by friday or thursday}
 
@@ -47,11 +46,13 @@
 
 ## Properties Schema
 
--
+- Created a rental_agreement table. Added contract_id column (pkey and unique), property_id (property on which this agreement is linked to), guest_signee_id (references to guest.guest_id), host_grantor_id (references to host.host_id) and payment_id (need to define the foreign constraint for this though).
+
+
 
 # Report Draft
 
-- Languages used: SQL PostgreSQL flavour and [Python?]
+- Languages used: SQL PostgreSQL flavour, Java and Apache Tomcat.
 
 ...
 
