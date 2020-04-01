@@ -6,11 +6,17 @@
 
 + Create Schemas [Lev] {DONE}
 
-+ Create Tables and Constrains. [Lev] {IN PROGRESS}
++ Create Tables and Constrains. [Lev] {IN PROGRESS} {DONE}
+
++ Review Project and make sure tables satisfy **all** requirements. {IN PROGRESS}
 
 + Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {2/2 DONE}
 
-+ Populate Tables [Lev]{Will try to get this done by friday or thursday}
++ Merge Data into 1 data set. {IN PROGRESS}
+
++ Figure out how to populate tables {IN PROGRESS}
+
++ Populate Tables [Lev]{Will try to get this done by friday or thursday} 
 
 - Do the specified Queries [Chris]
 
@@ -48,6 +54,13 @@
 
 - Created a rental_agreement table. Added contract_id column (pkey and unique), property_id (property on which this agreement is linked to), guest_signee_id (references to guest.guest_id), host_grantor_id (references to host.host_id) and payment_id (need to define the foreign constraint for this though).
 
+-Created a property_table, removed a column called "room type". Added number_of rooms, owner_id (host id fkey) and is_occupied columns with their appropiate constraints.
+
+**FINAL CHECK IS IN PROGRESS**
+
+# UI Development Log
+
+- [...]
 
 
 # Report Draft
