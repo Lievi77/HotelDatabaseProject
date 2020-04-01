@@ -44,6 +44,8 @@
 
 - For employee_info table: added a new column that relates a worker to its working branch: "works_for_branch_id" it cannot be null.
 
+- Noticed that we are missing a "Review" entity. It will have the following columns: review_id (pkey) ,reviewed_property_id (fkey) , reviewer_id (fkey), review_text and number_of_stars (between 1 and 5).
+
 ## Transaction Schema
 
 - For payment_info table: added a foreign key called host_collector_id and has_been_collected (need to add constraints on type of payment, payment status)
@@ -54,7 +56,7 @@
 
 - Created a rental_agreement table. Added contract_id column (pkey and unique), property_id (property on which this agreement is linked to), guest_signee_id (references to guest.guest_id), host_grantor_id (references to host.host_id) and payment_id (need to define the foreign constraint for this though).
 
--Created a property_table, removed a column called "room type". Added number_of rooms, owner_id (host id fkey) and is_occupied columns with their appropiate constraints.
+- Created a property_table, removed a column called "room type". Added number_of rooms, owner_id (host id fkey) and is_occupied columns with their appropiate constraints.
 
 **FINAL CHECK IS IN PROGRESS**
 
