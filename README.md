@@ -6,15 +6,11 @@
 
 + Create Schemas [Lev] {DONE}
 
-+ Create Tables and Constrains. [Lev] {IN PROGRESS} {DONE}
++ Create Tables and Constrains. [Lev] {DONE}
 
-+ Review Project and make sure tables satisfy **all** requirements. {IN PROGRESS}
++ Review Project and make sure tables satisfy **all** requirements. {DONE}
 
-+ Search for data sets to populate tables. [Chris] (hint: use Kaggle or any free data source) {2/2 DONE}
-
-+ Merge Data into 1 data set. {IN PROGRESS}
-
-+ Figure out how to populate tables {IN PROGRESS}
++ **LAST MINUTE CHANGE** Will try to generate random data to populate the tables {IN PROGRESS}
 
 + Populate Tables [Lev]{Will try to get this done by friday or thursday} 
 
@@ -58,7 +54,7 @@
 
 - Created a property_table, removed a column called "room type". Added number_of rooms, owner_id (host id fkey) and is_occupied columns with their appropiate constraints.
 
-**FINAL CHECK IS IN PROGRESS**
+**FINAL CHECK IS COMPLETED**
 
 # UI Development Log
 
