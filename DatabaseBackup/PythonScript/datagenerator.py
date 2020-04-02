@@ -4,15 +4,14 @@ import psycopg2
 import random
 import string
 
-#generates 100 instances of data for each of our tables.
 
-#seed that will be used
-random.seed(1)
-
+########################################################################
 ####################### Generator for the users schema #################
+########################################################################
 
 # Generator for the users_info, guest_info, host_info
 
+#pool of data used for users schema 
 header = ["host_id", "first_name", "middle_name", "last_name", "email", "phone_number",
             "city", "country", "province_or_state", "house_number", "street_name"]
 
@@ -26,7 +25,7 @@ pool_of_states = ["California",
 
 pool_of_names = ["Savy", "Camron", "Lev ", "Chris", "Cesar", "Andrew", "David", "Sam"
                 , "Parth", "Anne", "Melissa", "Monica", "Rebeca", "Ehecatl",
-                "Jason", "Sandy", "Eli"]
+                "Jason", "Sandy", "Omer"]
 
 pool_of_middle_names = [" ", "Chavez", "Emilio",
                         "Gutierrez", "Samantha", "Roberto",
@@ -37,7 +36,7 @@ pool_of_last_names = ["Guzman", "Aparicio",
                      "Mika", "Eufracio", "Branco",
                      "Zarepour", "Choolhon", "Bundhoo",
                      "Sekhon", "Pochapsky",
-                     "D'souza", "Wedia", "Wu", "Li", "Zepali",
+                     "D'souza", "Wedia", "Wu", "Li", "Abubaker",
                      "Bengali", "Hernandez"]
 
 pool_of_cities = ["Texcoco", "Ottawa",
@@ -62,7 +61,29 @@ pool_of_streets = ["34 St", "67 St",
                     
 pool_of_emails = ["combo", "user", "king", "queen", "sars", "mers"
                 "h1n1", "h5n1", "tlatoani", "balam", "elote", "chachalaca", "postgres",
-                "quarantineboi" , "quarantinegal" , "alucard", "belmont" , "quetzal"]
+                "quarantineboi", "quarantinegal", "alucard", "belmont", "quetzal"]
+
+def generateIDPool(seed_number):
+    random.seed(seed_number)
+
+    pool = []
+
+    for i in range(100):
+
+        random_id = random.randint(1, 20000)
+
+        pool.append(random_id)
+    
+    return pool
+
+pool_of_host_ids = generateIDPool(2)
+
+pool_of_guest_ids = generateIDPool(3)
+
+pool_of_account_ids = generateIDPool(4)
+
+#after generation of data, set seed to 1
+random.seed(1)
 
 with open('users_info.csv', 'w', ) as file:
     #opens the file and writes the header
@@ -74,7 +95,7 @@ with open('users_info.csv', 'w', ) as file:
 
         #generate pseudorandom data
         
-        host_id = random.randint(1, 20000)
+        host_id = random.choice(pool_of_account_ids)
         first_name = random.choice(pool_of_names)
         middle_name = random.choice(pool_of_middle_names)
         last_name = random.choice(pool_of_last_names)
@@ -88,6 +109,110 @@ with open('users_info.csv', 'w', ) as file:
 
         data = [host_id, first_name, middle_name, last_name, email, phone_number, city,
             province_or_state, house_number, street_name  ] 
+
+        #writes it in the file
+        writer.writerow(data)
+
+
+#guest_id.csv generator
+
+header = ["guest_id"]
+
+with open('guest_id.csv', 'w', ) as file:
+    #opens the file and writes the header
+    writer = csv.writer(file)
+    writer.writerow(header)
+    
+    #generates 100 entries
+    for i in range(100):
+
+        #generate pseudorandom data
+        
+        data = [ random.choice(pool_of_guest_ids) ] 
+
+        #writes it in the file
+        writer.writerow(data)
+
+#host_id generator
+header = ["host_id"]
+
+with open('host_id.csv', 'w', ) as file:
+    #opens the file and writes the header
+    writer = csv.writer(file)
+    writer.writerow(header)
+    
+    #generates 100 entries
+    for i in range(100):
+
+        #generate pseudorandom data
+        
+        data = [ random.choice(pool_of_host_ids) ] 
+
+        #writes it in the file
+        writer.writerow(data)
+
+
+####################################################################
+############### Generator for transactions schema ##################
+####################################################################
+
+#update the header following the schema
+header = ["transaction_id", "type_of_payment", "payment_status", "host_collector_id",
+        "amount"]
+
+#generator for transactions info
+with open('transactions_info.csv', 'w', ) as file:
+    #opens the file and writes the header
+    writer = csv.writer(file)
+    writer.writerow(header)
+    
+    #generates 200 entries
+    for i in range(200):
+
+        #generate pseudorandom data
+        
+        transaction_id = random.randint(1, 50000)
+        type_of_payment = random.choice(["cash", "check", "credit"])
+        payment_status = random.choice(["Accepted", "Not Accepted"] )
+        host_collector_id = random.choice(pool_of_host_ids)
+        amount = random.randint(1,30000)
+
+        data = [transaction_id, type_of_payment, payment_status, host_collector_id, amount ] 
+
+        #writes it in the file
+        writer.writerow(data)
+
+#generator for pricing table
+
+#generate pool of property id
+pool_of_properties_ids = generateIDPool(5)
+pool_of_types = ["condo", "villa", "apartment", "basement", "mansion", "house", "room"]
+rule_keywords = ["no pets", "no smoking", "only men", "only women"
+                , "pets allowed", "no parties", "only cats", "no loud noises"]
+amenities_keyword = ["pool", "induction stove", "garden", "safe lock", "library",
+                    "private restroom", "large dining room"]
+
+#reset the seed to 1 after using the generator
+random.seed(1)
+
+header = ["property_priced_id", "allowed_number_of_guests", "valid_for_type", "rules", "amenities"]
+
+with open('pricing.csv', 'w', ) as file:
+    #opens the file and writes the header
+    writer = csv.writer(file)
+    writer.writerow(header)
+    
+    #generates 200 entries
+    for i in range(200):
+
+        #generate pseudorandom data
+        property_priced_id = random.choice(pool_of_properties_ids)
+        allowed_number_of_guests = random.randint(0, 10)
+        valid_for_type = random.choice(pool_of_types)
+        rules = random.choice(rule_keywords)
+        amenities = random.choice(amenities_keyword)
+
+        data = [property_priced_id, allowed_number_of_guests, valid_for_type, rules, amenities] 
 
         #writes it in the file
         writer.writerow(data)

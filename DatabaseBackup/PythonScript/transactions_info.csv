@@ -1,0 +1,201 @@
+transaction_id,type_of_payment,payment_status,host_collector_id,amount
+3523,cash,Not Accepted,14125,16684
+489,credit,Accepted,7079,5767
+12170,cash,Not Accepted,4533,7924
+17473,cash,Accepted,18957,23430
+48877,cash,Accepted,3224,9127
+12332,credit,Accepted,5365,27182
+31160,credit,Not Accepted,1132,29339
+1439,cash,Accepted,14519,28484
+443,cash,Accepted,7871,27413
+4236,check,Accepted,19121,8392
+12947,check,Not Accepted,16631,15999
+13948,cash,Accepted,18132,27052
+10414,cash,Accepted,2734,6566
+19845,credit,Not Accepted,18407,24959
+43954,cash,Not Accepted,7871,12323
+19481,cash,Accepted,5365,21191
+47867,credit,Accepted,17995,5722
+26044,check,Accepted,12119,14413
+2631,credit,Not Accepted,18957,24026
+41935,cash,Not Accepted,14304,5257
+40940,check,Not Accepted,10448,29097
+33132,credit,Accepted,19974,14246
+25611,check,Not Accepted,11355,25399
+22154,credit,Accepted,14340,16990
+18862,check,Accepted,18228,17996
+40260,cash,Accepted,11355,1825
+38131,credit,Not Accepted,6237,28333
+22733,check,Not Accepted,5363,8301
+29471,credit,Not Accepted,8614,5014
+34374,credit,Not Accepted,9229,11513
+48022,cash,Accepted,1132,2534
+31264,check,Accepted,13029,5114
+18599,check,Not Accepted,3224,24251
+23603,check,Not Accepted,17995,16876
+46647,cash,Accepted,1698,9329
+26881,check,Not Accepted,18957,26217
+11877,credit,Accepted,18154,21380
+1146,check,Accepted,14340,6960
+19751,cash,Accepted,16631,18603
+8128,credit,Accepted,10448,20203
+48564,check,Not Accepted,14476,21450
+20527,check,Accepted,19974,27767
+3915,credit,Not Accepted,18988,12918
+41765,check,Not Accepted,9801,5158
+49536,credit,Accepted,13490,21229
+43506,check,Accepted,3637,16342
+44317,credit,Accepted,1132,19724
+13166,credit,Accepted,14340,24023
+12619,cash,Not Accepted,3168,4562
+19219,cash,Accepted,7079,19644
+39266,cash,Accepted,14304,22252
+10394,check,Accepted,5462,26207
+46818,check,Accepted,1508,13242
+17475,check,Not Accepted,10085,13075
+13327,cash,Accepted,4210,29019
+3364,check,Not Accepted,9221,29120
+7266,credit,Not Accepted,3168,6131
+47334,cash,Not Accepted,17510,21340
+38653,cash,Not Accepted,7871,11999
+24458,credit,Accepted,6163,11044
+7783,credit,Accepted,11355,12785
+42964,credit,Not Accepted,12119,18327
+38849,credit,Not Accepted,15081,5286
+409,cash,Accepted,10085,12068
+27094,cash,Not Accepted,2126,7921
+19215,cash,Accepted,7601,21799
+15636,credit,Accepted,19148,19120
+14521,credit,Not Accepted,4533,20835
+21956,check,Not Accepted,2734,26502
+39334,credit,Not Accepted,14720,24390
+22332,credit,Not Accepted,7076,22073
+42886,credit,Accepted,17510,23252
+29783,credit,Accepted,15258,1219
+46421,credit,Not Accepted,9733,24717
+8310,check,Not Accepted,11355,29302
+12816,credit,Not Accepted,18132,28208
+20602,cash,Accepted,18132,29609
+45746,credit,Not Accepted,9801,19271
+30259,credit,Accepted,18132,21877
+40189,credit,Accepted,6494,8066
+13709,cash,Accepted,3168,20155
+39796,cash,Not Accepted,15081,23474
+2077,cash,Not Accepted,12137,1124
+32879,cash,Accepted,1508,3422
+42132,credit,Not Accepted,9733,24641
+7962,check,Not Accepted,14896,5148
+41436,check,Not Accepted,18684,20048
+16299,credit,Not Accepted,12466,1494
+759,check,Accepted,12119,26137
+2379,cash,Accepted,10448,28402
+39229,check,Accepted,4210,6705
+32059,credit,Not Accepted,13059,28168
+18302,credit,Accepted,19620,20166
+13740,check,Not Accepted,549,27670
+7044,cash,Not Accepted,6370,25199
+17942,cash,Not Accepted,7076,18718
+5597,cash,Accepted,18497,5973
+10411,credit,Accepted,13490,26139
+49896,credit,Accepted,6237,2713
+39976,cash,Accepted,7076,4267
+33344,credit,Not Accepted,18684,4839
+13628,credit,Accepted,13029,17007
+7467,cash,Not Accepted,4533,17879
+798,cash,Not Accepted,18684,20937
+12979,credit,Accepted,18228,20646
+18516,credit,Accepted,4210,27987
+16953,cash,Not Accepted,13490,17657
+34556,credit,Not Accepted,11211,10598
+3752,credit,Not Accepted,9298,14161
+17307,cash,Accepted,18407,28515
+8553,credit,Not Accepted,16631,25442
+21166,check,Accepted,19897,17611
+42112,check,Not Accepted,10608,12305
+39182,credit,Not Accepted,3322,6449
+15441,check,Accepted,478,23639
+12555,check,Accepted,7871,10004
+16059,cash,Accepted,17510,17243
+24861,cash,Accepted,18684,10021
+7452,check,Not Accepted,17079,24990
+24745,cash,Not Accepted,1698,17486
+48577,cash,Not Accepted,6503,12466
+5441,check,Not Accepted,8614,313
+12072,check,Accepted,14125,15610
+1634,cash,Accepted,18988,24247
+37299,credit,Not Accepted,719,23764
+14465,cash,Accepted,18132,28650
+34209,check,Accepted,19620,27289
+49947,check,Not Accepted,9229,6096
+25568,cash,Not Accepted,15258,19630
+39014,cash,Not Accepted,8459,14560
+3612,check,Not Accepted,549,23339
+14096,cash,Accepted,9733,22680
+34716,cash,Accepted,14720,5267
+12722,cash,Accepted,18132,299
+25164,cash,Accepted,12137,4859
+34841,cash,Not Accepted,18228,19225
+26539,credit,Accepted,15258,536
+212,check,Not Accepted,4210,25168
+2670,credit,Accepted,15795,4776
+4579,check,Not Accepted,3829,19939
+9591,check,Not Accepted,7601,8774
+12889,credit,Accepted,6494,10851
+36242,check,Accepted,3829,16113
+1099,cash,Accepted,10205,4885
+32263,check,Accepted,17836,19057
+18776,credit,Not Accepted,14125,28174
+15068,credit,Accepted,3829,18523
+14330,cash,Not Accepted,9229,4580
+29005,cash,Accepted,10516,23251
+10409,credit,Accepted,19974,129
+34399,check,Not Accepted,1508,27234
+21182,check,Not Accepted,9229,5808
+21628,check,Not Accepted,12119,21805
+35300,credit,Not Accepted,19148,3694
+43682,cash,Not Accepted,3168,6876
+34380,check,Not Accepted,9298,2876
+17344,check,Not Accepted,14896,11353
+47134,check,Accepted,9801,20397
+38150,cash,Not Accepted,17658,148
+14274,credit,Accepted,2734,20353
+6372,credit,Not Accepted,10516,24311
+3648,cash,Not Accepted,14476,6498
+19629,credit,Accepted,13395,14956
+10196,credit,Accepted,8898,18414
+47981,check,Not Accepted,14340,22548
+28704,check,Accepted,10017,5379
+28348,check,Not Accepted,9221,16801
+46377,check,Accepted,13059,22248
+18387,check,Not Accepted,18132,20090
+49906,cash,Not Accepted,14340,25890
+23169,check,Accepted,15936,4688
+10050,check,Accepted,719,18271
+14134,credit,Accepted,9298,12733
+10710,credit,Accepted,13395,6121
+34932,cash,Accepted,549,375
+37915,cash,Accepted,11625,15162
+36939,credit,Not Accepted,18957,14880
+24265,check,Accepted,2126,17818
+21797,credit,Not Accepted,19121,18812
+48255,check,Accepted,14519,1073
+42354,cash,Not Accepted,10884,4391
+12582,check,Not Accepted,18497,2129
+47355,credit,Accepted,1698,12281
+48154,credit,Accepted,5365,29305
+16929,credit,Not Accepted,16408,24130
+30634,credit,Accepted,4533,6392
+6164,credit,Not Accepted,11759,18695
+4450,check,Accepted,7079,12293
+7014,check,Not Accepted,14125,4206
+46817,credit,Accepted,17612,5716
+20014,credit,Accepted,18132,295
+10579,check,Not Accepted,4437,2847
+39827,credit,Accepted,10884,22046
+46879,cash,Accepted,19974,29010
+2548,cash,Accepted,15081,28977
+1837,credit,Not Accepted,5462,28917
+35896,cash,Not Accepted,18957,29639
+20666,cash,Not Accepted,10608,11573
+15263,check,Accepted,18497,13080
+13200,cash,Accepted,10238,21259
