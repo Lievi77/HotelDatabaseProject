@@ -4,7 +4,6 @@ import psycopg2
 import random
 import string
 
-
 ########################################################################
 ####################### Generator for the users schema #################
 ########################################################################
@@ -160,6 +159,10 @@ with open('host_id.csv', 'w', ) as file:
 header = ["transaction_id", "type_of_payment", "payment_status", "host_collector_id",
         "amount"]
 
+#generate transaction ids and reset seed
+pool_of_transaction_ids = generateIDPool(5)
+random.seed(1)
+
 #generator for transactions info
 with open('transactions_info.csv', 'w', ) as file:
     #opens the file and writes the header
@@ -171,7 +174,7 @@ with open('transactions_info.csv', 'w', ) as file:
 
         #generate pseudorandom data
         
-        transaction_id = random.randint(1, 50000)
+        transaction_id = random.choice(pool_of_transaction_ids)
         type_of_payment = random.choice(["cash", "check", "credit"])
         payment_status = random.choice(["Accepted", "Not Accepted"] )
         host_collector_id = random.choice(pool_of_host_ids)
@@ -185,7 +188,7 @@ with open('transactions_info.csv', 'w', ) as file:
 #generator for pricing table
 
 #generate pool of property id
-pool_of_properties_ids = generateIDPool(5)
+pool_of_properties_ids = generateIDPool(6)
 pool_of_types = ["condo", "villa", "apartment", "basement", "mansion", "house", "room"]
 rule_keywords = ["no pets", "no smoking", "only men", "only women"
                 , "pets allowed", "no parties", "only cats", "no loud noises"]
@@ -213,6 +216,32 @@ with open('pricing.csv', 'w', ) as file:
         amenities = random.choice(amenities_keyword)
 
         data = [property_priced_id, allowed_number_of_guests, valid_for_type, rules, amenities] 
+
+        #writes it in the file
+        writer.writerow(data)
+
+####################################################################################
+##################### Generator for the Properties Schema ##########################
+####################################################################################
+
+#data used
+
+#update header
+header = []
+
+with open('properties_info.csv', 'w', ) as file:
+    #opens the file and writes the header
+    writer = csv.writer(file)
+    writer.writerow(header)
+    
+    #generates 200 entries
+    for i in range(200):
+
+        #generate pseudorandom data
+       
+        
+
+        data = [] 
 
         #writes it in the file
         writer.writerow(data)
