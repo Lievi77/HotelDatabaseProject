@@ -10,9 +10,9 @@
 
 + Review Project and make sure tables satisfy **all** requirements. {DONE}
 
-+ **LAST MINUTE CHANGE** Will try to generate random data to populate the tables {IN PROGRESS}
++ **LAST MINUTE CHANGE** Will try to generate random data to populate the tables {DONE}
 
-+ Populate Tables [Lev]{Will try to get this done by friday or thursday} 
++ Populate Tables [Lev]{FINAL CHECK OF THE SCHEMA BEFORE INSERTION IN PROGRESS} 
 
 - Do the specified Queries [Chris]
 
@@ -63,7 +63,18 @@
 
 # Report Draft
 
-- Languages used: SQL PostgreSQL flavour, Java and Apache Tomcat.
+- Languages used: SQL PostgreSQL flavour and Python.
+
+### Installation of Database Instructions
+
+1. Restore the provided Database Backup (CSI2132PROJECTLEVCHRIS) using pgAdmin 4. The backup will only contain the
+schemas and skeleton tables with no data.
+
+2. Execute the provided data generator script (data_generator.py) to generate the data to be inserted. 
+
+3. Execute the insertion script (data_insertor.py) to insert the data into the database.
+
+4. [UI INSTRUCTIONS HERE]
 
 ...
 
