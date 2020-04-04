@@ -2,6 +2,8 @@
 import csv
 import psycopg2
 
+# script that inserts data recorded in csv files
+
 # connection setup
 
 conn = psycopg2.connect("host= localhost dbname= project user = postgres password = cherokee77")
