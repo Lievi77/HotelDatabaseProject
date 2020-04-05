@@ -183,10 +183,10 @@ with open('transactions_info.csv', 'w', ) as file:
     for i in range(200):
         # generate pseudorandom data
 
-        transaction_id = i
+        transaction_id = i + 1000
         type_of_payment = random.choice(["Cash", "Check", "Credit"])
         payment_status = random.choice(["Accepted", "Not Accepted"])
-        host_collector_id = random.randint(0,99)
+        host_collector_id = random.randint(0, 99)
         amount = random.randint(1, 30000)
 
         data = [transaction_id, type_of_payment, payment_status, host_collector_id, amount]
@@ -218,7 +218,7 @@ with open('pricing.csv', 'w', ) as file:
     # generates 200 entries
     for i in range(200):
         # generate pseudorandom data
-        pricing_id = i
+        pricing_id = i + 700
         allowed_number_of_guests = random.randint(0, 10)
         valid_for_type = random.choice(pool_of_types)
         rules = random.choice(rule_keywords)
@@ -245,15 +245,18 @@ def generate_days(seed_number):
     pool = []
 
     for i in range(100 * 10):
-        year = random.randint(1940, 2080)
+        year = random.randint(1980, 2010)
 
         month = random.randint(1, 12)
-        day = random.randint(1, 31)
+        day = random.randint(1, 30)
 
         if month < 10:
             month = str(0) + str(month)
 
-        if (day < 10):
+        if month == "02":
+            day = random.randint(1,28)
+
+        if day < 10:
             day = str(0) + str(day)
 
         pool.append(str(year) + "-" + str(month) + "-" + str(day))
@@ -272,18 +275,17 @@ with open('properties_info.csv', 'w', ) as file:
     # generates 200 entries
     for i in range(200):
         # generate pseudorandom data
-        property_id = random.sample(pool_of_properties_ids, 1)
-        property_id = property_id[0]
+        property_id = i + 500
         tYpe = random.choice(pool_of_types)
         number_of_rooms = random.randint(1, 10)
-        owner_id = random.choice(pool_of_host_ids)
+        owner_id = random.randint(0, 99)
 
         # the date format is YYYY-MM-DD.
         available_date = random.choice(pool_of_dates)
 
-        pricing_id = random.sample(pool_of_pricing_ids, 1)
-        pricing_id = pricing_id[0]
-        location = random.choice(pool_of_states) + "," + random.choice(pool_of_countries)
+        pricing_id = random.randint(699, 899)
+
+        location = random.choice(pool_of_states)
 
         data = [property_id, tYpe, number_of_rooms, owner_id, available_date, pricing_id, location]
 
@@ -300,11 +302,11 @@ def generate_diff_days(seed):
     lowerPool = []
 
     for i in range(100 * 10):
-        year = random.randint(1940, 2080)
-        year2 = random.randint(1930, 2090)
+        year = random.randint(1981, 2000)
+        year2 = random.randint(2001, 2021)
 
         month = random.randint(1, 12)
-        day = random.randint(1, 31)
+        day = random.randint(1, 30)
 
         if month < 10:
             month = str(0) + str(month)
@@ -340,10 +342,12 @@ pool_of_transaction_ids = generate_id_pool(86)  # restore after use
 
 pool_of_booking_days = generate_diff_days(17)
 
+days = generate_diff_days(100)
+
 random.seed(1)
 
 header = ["agreement_id", "property_id", "start_date", "end_date", "host_grantor_id", "payment_id"
-    , "pricing_id"]
+        , "pricing_id"]
 
 with open('rental_agreement.csv', 'w', ) as file:
     # opens the file and writes the header
@@ -351,27 +355,25 @@ with open('rental_agreement.csv', 'w', ) as file:
     writer.writerow(header)
 
     # generates 100 entries
-    for i in range(100):
+    for i in range(200):
         # generate pseudorandom data
-        agreement_id = random.sample(pool_of_agreement_ids, 1)
-        agreement_id = agreement_id[0]
+        agreement_id = i + 5000
 
-        property_id = random.sample(pool_of_properties_ids, 1)
-        property_id = property_id[0]
+        property_id = random.randint(499, 699)
 
-        start_date = random.sample(pool_of_booking_days[1], 1)
-        start_date = start_date[0]
+        start_date = random.choice(days[1])
 
-        end_date = random.sample(pool_of_booking_days[0], 1)
-        end_date = end_date[0]
+        end_date = random.choice(days[0])
 
-        host_grantor_id = random.sample(pool_of_host_ids, 1)
-        host_grantor_id = host_grantor_id[0]
+        host_grantor_id = random.randint(0, 99)
 
-        payment_id = random.sample(pool_of_transaction_ids, 1)
-        payment_id = payment_id[0]
+        payment_id = random.randint(1000, 1199)
 
-        data = [agreement_id, property_id, start_date, end_date, host_grantor_id, payment_id, pricing_id]
+        pricing_id = random.randint(700, 899)
+
+        guest_signee_id = random.randint(0,99)
+
+        data = [agreement_id, property_id, start_date, end_date, guest_signee_id, host_grantor_id, payment_id, pricing_id]
 
         # writes it in the file
         writer.writerow(data)
@@ -393,22 +395,18 @@ with open('branch_info.csv', 'w', ) as file:
     writer.writerow(header)
 
     # generates 100 entries
-    for i in range(100):
+    for i in range(200):
         # generate pseudorandom data
 
-        branch_id = random.sample(pool_of_branch_ids, 1)
-        branch_id = branch_id[0]
+        branch_id = i + 800
 
         branch_name = random.sample(pool_of_countries, 1)
         branch_name = branch_name[0]
-        country = branch_name
+        country = random.choice(pool_of_countries)
 
         num_employees = random.randint(1,1000)
 
-        manager_id = random.sample(pool_of_employee_ids, 1)
-        manager_id = manager_id[0]
-
-        data = [branch_id, branch_name + " branch", country, num_employees, manager_id]
+        data = [branch_id, branch_name, country, num_employees]
 
         # writes it in the file
         writer.writerow(data)
@@ -416,7 +414,7 @@ with open('branch_info.csv', 'w', ) as file:
 # employee_info data generator
 
 header = ["employee_id", "first_name", "last_name", "city", "country", "works_for_branch_id"
-          , "email", "phone_number", "salary", "position", "street_name", "street_number"]
+          , "email", "phone_number", "salary", "position", "street_name", "street_number", "manages_branch_id"]
 
 pool_of_employee_ids = generate_id_pool(53)  # regenerate
 pool_of_branch_ids = generate_id_pool(100)  # regenerate
@@ -451,11 +449,10 @@ with open('employee_info.csv', 'w', ) as file:
     writer.writerow(header)
 
     # generates 100 entries
-    for i in range(100):
+    for i in range(200):
         # generate pseudorandom data
 
-        employee_id = random.sample(pool_of_employee_ids, 1)
-        employee_id = employee_id[0]
+        employee_id = i + 6000
 
         first_name = random.choice(pool_of_employee_names)
         last_name = random.choice(pool_of_employee_last_names)
@@ -464,8 +461,7 @@ with open('employee_info.csv', 'w', ) as file:
         country = random.sample(pool_of_countries,1)
         country = country[0]
 
-        works_for_branch_id = random.sample(pool_of_branch_ids,1)
-        works_for_branch_id = works_for_branch_id[0]
+        works_for_branch_id = random.randint(800, 999)
 
         email = random.choice(pool_of_employee_emails) + ''.join(random.sample('0123456789', 4)) + "@employee.com"
 
@@ -475,14 +471,16 @@ with open('employee_info.csv', 'w', ) as file:
 
         if position == 'manager':
             salary = random.randint(5000, 10000)
+            manages_branch_id = random.randint(800, 999)
         else:
             salary = random.randint(1000, 3000)
+            manages_branch_id = -1
 
         street_name = random.choice(pool_of_employee_street_name) + " street"
         street_number = random.randint(0, 999)
 
         data = [employee_id, first_name, last_name, city, country, works_for_branch_id
-                , email, phone_number, salary, position, street_name, street_number]
+                , email, phone_number, salary, position, street_name, street_number, manages_branch_id]
 
         # writes it in the file
         writer.writerow(data)
@@ -512,15 +510,14 @@ with open('review_info.csv', 'w', ) as file:
     writer.writerow(header)
 
     # generates 100 entries
-    for i in range(100):
+    for i in range(200):
         # generate pseudorandom data
 
-        review_id = random.sample(pool_of_review_ids,1)
-        review_id = review_id[0]
+        review_id = i + 900
 
-        reviewed_property_id = random.choice(pool_of_properties_ids)
+        reviewed_property_id = random.randint(500, 699)
 
-        reviewer_id = random.choice(pool_of_guest_ids)
+        reviewer_id = random.randint(0, 99)
 
         number_of_stars = random.randint(1, 5)
         cleanliness_of_property = random.randint(1,5)

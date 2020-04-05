@@ -60,3 +60,49 @@ with open('pricing.csv', 'r') as f:
 
 conn.commit()
 
+####################################################
+######## Data insertor for Properties scheme ####
+###################################################
+
+cur = conn.cursor()
+
+with open('properties_info.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'properties.properties_info', sep=',')
+
+conn.commit()
+
+cur = conn.cursor()
+
+with open('rental_agreement.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'properties.rental_agreement', sep=',')
+
+conn.commit()
+
+####################################################
+######## Data insertor for Management schema ####
+###################################################
+
+with open('review_info.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'management.review_info', sep=',')
+
+conn.commit()
+
+with open('branch_info.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'management.branch_info', sep=',')
+
+conn.commit()
+
+with open('employee_info.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'management.employee_info', sep=',')
+
+conn.commit()
