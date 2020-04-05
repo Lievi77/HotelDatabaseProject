@@ -1,6 +1,7 @@
 # written by Lev C. Guzman Aparicio 300038033 lguzm038@uottawa.ca 2020
 import csv
 import random
+import math
 
 ########################################################################
 ####################### Generator for the users schema #################
@@ -9,7 +10,9 @@ import random
 # Generator for the users_info, guest_info, host_info
 
 # pool of data used for users schema
-header = ["account_id", "first_name", "middle_name", "last_name", "email", "phone_number",
+#account id ommited, using serial
+
+header = ["first_name", "middle_name", "last_name", "email", "phone_number",
           "city", "country", "province_or_state", "house_number", "street_name"]
 
 pool_of_states = ["California",
@@ -62,26 +65,28 @@ pool_of_emails = ["combo", "user", "king", "queen", "sars", "mers"
 
 
 def generate_id_pool(seed_number):
-    random.seed(seed_number)
-
     pool = []
-
-    for i in range(100 * 10):
-        random_id = random.randint(1, 500000)
-
-        pool.append(random_id)
+    for i in range(50*100):
+        pool.append(i + seed_number)
 
     return pool
 
+def shuffle_lists(lists):
 
-pool_of_host_ids = generate_id_pool(120928487468718212)
+    for list in lists:
+        random.shuffle(list)
 
-pool_of_guest_ids = generate_id_pool(1293791461647381)
 
-pool_of_account_ids = generate_id_pool(8736317677281)
+pool_of_host_ids = generate_id_pool(2)
+
+pool_of_guest_ids = generate_id_pool(1)
+
+pool_of_account_ids = generate_id_pool(0)
 
 # after generation of data, set seed to 1
 random.seed(1)
+
+array_for_account_ids = []
 
 with open('users_info.csv', 'w', ) as file:
     # opens the file and writes the header
@@ -92,8 +97,10 @@ with open('users_info.csv', 'w', ) as file:
     for i in range(100):
         # generate pseudorandom data
 
-        account_id = random.sample(pool_of_account_ids, 1)
-        account_id = account_id[0]
+        account_id = i
+
+        array_for_account_ids.append(account_id)
+
         first_name = random.choice(pool_of_names)
         middle_name = random.choice(pool_of_middle_names)
         last_name = random.choice(pool_of_last_names)
@@ -105,7 +112,9 @@ with open('users_info.csv', 'w', ) as file:
         house_number = random.randint(1, 99)
         street_name = random.choice(pool_of_streets)
 
-        data = [account_id, first_name, middle_name, last_name, email, phone_number, city,
+        shuffle_lists([pool_of_guest_ids])
+
+        data = [account_id, first_name, middle_name, last_name, email, phone_number, city, country,
                 province_or_state, house_number, street_name]
 
         # writes it in the file
@@ -113,7 +122,9 @@ with open('users_info.csv', 'w', ) as file:
 
 # guest_id.csv generator
 
-header = ["guest_id"]
+header = ["account_id", "guest_id"]
+
+
 
 with open('guest_id.csv', 'w', ) as file:
     # opens the file and writes the header
@@ -123,17 +134,15 @@ with open('guest_id.csv', 'w', ) as file:
     # generates 100 entries
     for i in range(100):
         # generate pseudorandom data
+        account_id = guest_id = i
 
-        guest_id = random.sample(pool_of_guest_ids, 1)
-        guest_id = guest_id[0]
-
-        data = [guest_id]
+        data = [guest_id, account_id]
 
         # writes it in the file
         writer.writerow(data)
 
 # host_id generator
-header = ["host_id"]
+header = ["host_id", "account_id"]
 
 with open('host_id.csv', 'w', ) as file:
     # opens the file and writes the header
@@ -144,10 +153,9 @@ with open('host_id.csv', 'w', ) as file:
     for i in range(100):
         # generate pseudorandom data
 
-        host_id = random.sample(pool_of_host_ids, 1)
-        host_id = host_id[0]
+        host_id = account_id = i
 
-        data = [host_id]
+        data = [host_id, account_id]
 
         # writes it in the file
         writer.writerow(data)
@@ -161,7 +169,7 @@ header = ["transaction_id", "type_of_payment", "payment_status", "host_collector
           "amount"]
 
 # generate transaction ids and reset seed to 1
-pool_of_transaction_ids = generate_id_pool(192013008419033)
+pool_of_transaction_ids = generate_id_pool(10)
 
 random.seed(1)
 
@@ -191,8 +199,8 @@ with open('transactions_info.csv', 'w', ) as file:
 # generator for pricing table
 
 # generate pool of property id
-pool_of_properties_ids = generate_id_pool(1272121241576)
-pool_of_pricing_ids = generate_id_pool(20120931731682)
+pool_of_properties_ids = generate_id_pool(12)
+pool_of_pricing_ids = generate_id_pool(20)
 pool_of_types = ["condo", "villa", "apartment", "basement", "mansion", "house", "room"]
 rule_keywords = ["no pets", "no smoking", "only men", "only women"
     , "pets allowed", "no parties", "only cats", "no loud noises"]
@@ -256,7 +264,7 @@ def generate_days(seed_number):
 
 
 # reset seed
-pool_of_dates = generate_days(111111112020)
+pool_of_dates = generate_days(55)
 random.seed(1)
 
 with open('properties_info.csv', 'w', ) as file:
@@ -323,17 +331,17 @@ def generate_diff_days(seed):
 
 # agreement_id
 
-pool_of_agreement_ids = generate_id_pool(7647098363728942934)
+pool_of_agreement_ids = generate_id_pool(100)
 
-pool_of_properties_ids = generate_id_pool(1272121241576)  # restore after use
+pool_of_properties_ids = generate_id_pool(200)  # restore after use
 
-pool_of_host_ids = generate_id_pool(120928487468718212)  # restore after use
+pool_of_host_ids = generate_id_pool(76)  # restore after use
 
-pool_of_transaction_ids = generate_id_pool(192013008419033)  # restore after use
+pool_of_transaction_ids = generate_id_pool(86)  # restore after use
 
 # 0 is for greater days, 1 is for lower days
 
-pool_of_booking_days = generate_diff_days(56438719289134719)
+pool_of_booking_days = generate_diff_days(17)
 
 random.seed(1)
 
@@ -378,8 +386,8 @@ with open('rental_agreement.csv', 'w', ) as file:
 header = ["branch_id", "branch_name", "country", "num_employees", "manager_id"]
 
 # generate id pool and reset seed to 1
-pool_of_branch_ids = generate_id_pool(62884093871982)
-pool_of_employee_ids = generate_id_pool(89228748493221)
+pool_of_branch_ids = generate_id_pool(69)
+pool_of_employee_ids = generate_id_pool(666)
 random.seed(1)
 
 with open('branch_info.csv', 'w', ) as file:
@@ -413,8 +421,8 @@ with open('branch_info.csv', 'w', ) as file:
 header = ["employee_id", "first_name", "last_name", "city", "country", "works_for_branch_id"
           , "email", "phone_number", "salary", "position", "street_name", "street_number"]
 
-pool_of_employee_ids = generate_id_pool(89228748493221)  # regenerate
-pool_of_branch_ids = generate_id_pool(62884093871982)  # regenerate
+pool_of_employee_ids = generate_id_pool(53)  # regenerate
+pool_of_branch_ids = generate_id_pool(100)  # regenerate
 random.seed(1)
 
 pool_of_countries = ["Mexico", "United States", "Canada",
@@ -487,9 +495,9 @@ with open('employee_info.csv', 'w', ) as file:
 header = ["review_id", "reviewed_property_id", "reviewer_id", "number_of_stars", "guest_comments",
           "cleanliness_of_property"]
 
-pool_of_review_ids = generate_id_pool(456849328737191)
-pool_of_properties_ids = generate_id_pool(1272121241576)
-pool_of_guest_ids = generate_id_pool(1293791461647381)
+pool_of_review_ids = generate_id_pool(200)
+pool_of_properties_ids = generate_id_pool(125)
+pool_of_guest_ids = generate_id_pool(130)
 
 pool_of_positive_comments = ["city is close", "downtown vibes", "good price", "good experience",
                     "very large", "very comfy", "feels like home", "absolute tranquility", "everything works"]

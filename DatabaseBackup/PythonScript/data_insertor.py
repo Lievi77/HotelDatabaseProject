@@ -8,47 +8,28 @@ import psycopg2
 
 conn = psycopg2.connect("host= localhost dbname= project user = postgres password = cherokee77")
 
-########## Population of users schema ################
-
-# cursor for populating user_info, host_info and guest_info table
-# insertion in user_info, guarantees population of the other two
-
 cur = conn.cursor()
 
-with open('user_accounts.csv', 'r') as f:
-    reader = csv.reader(f)
-    next(reader)  # Skip the header row.
-    for row in reader:
-        cur.execute(
-            "INSERT INTO users VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
-            # must follow schema format
-            row
-        )
+with open('guest_id.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'users.guest', sep=',')
 
 conn.commit()
 
-############ Population of transactions schema ################
+with open('host_id.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'users.host', sep=',')
 
-# cursor for populating transaction_info table
+conn.commit()
 
+cur = conn.cursor()
 
-# cursor for populating the pricing table
+with open('users_info.csv', 'r') as f:
+    # Notice that we don't need the `csv` module.
+    next(f) # Skip the header row.
+    cur.copy_from(f, 'users.user_info', sep=',')
 
+conn.commit()
 
-############ Population of properties schema ################
-
-# cursor for populating properties_info table
-
-
-# cursor for populating rental_agreement table
-
-
-############ Population of management schema ################
-
-# cursor for populating branch_info table
-
-
-# cursor for populating employee_info table
-
-
-# cursor for populating review_info table
