@@ -183,12 +183,10 @@ with open('transactions_info.csv', 'w', ) as file:
     for i in range(200):
         # generate pseudorandom data
 
-        transaction_id = random.sample(pool_of_transaction_ids, 1)
-        transaction_id = transaction_id[0]
+        transaction_id = i
         type_of_payment = random.choice(["Cash", "Check", "Credit"])
         payment_status = random.choice(["Accepted", "Not Accepted"])
-        host_collector_id = random.sample(pool_of_host_ids, 1)
-        host_collector_id = host_collector_id[0]
+        host_collector_id = random.randint(0,99)
         amount = random.randint(1, 30000)
 
         data = [transaction_id, type_of_payment, payment_status, host_collector_id, amount]
@@ -220,8 +218,7 @@ with open('pricing.csv', 'w', ) as file:
     # generates 200 entries
     for i in range(200):
         # generate pseudorandom data
-        pricing_id = random.sample(pool_of_pricing_ids, 1)
-        pricing_id = pricing_id[0]
+        pricing_id = i
         allowed_number_of_guests = random.randint(0, 10)
         valid_for_type = random.choice(pool_of_types)
         rules = random.choice(rule_keywords)
