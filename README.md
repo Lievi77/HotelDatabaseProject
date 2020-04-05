@@ -12,7 +12,7 @@
 
 + **LAST MINUTE CHANGE** Will try to generate random data to populate the tables {DONE}
 
-+ Populate Tables [Lev]{FINAL CHECK OF THE SCHEMA BEFORE INSERTION IN PROGRESS} 
++ Populate Tables [Lev]{DONE} 
 
 - Do the specified Queries [Chris]
 
@@ -74,7 +74,9 @@ schemas and skeleton tables with no data.
 
 3. Execute the insertion script (data_insertor.py) to insert the data into the database.
 
-4. [UI INSTRUCTIONS HERE]
+4. Database set up.
+
+5. [UI INSTRUCTIONS HERE]
 
 ...
 
