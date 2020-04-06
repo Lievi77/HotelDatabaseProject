@@ -1,5 +1,4 @@
 # written by Lev C. Guzman Aparicio 300038033 lguzm038@uottawa.ca 2020
-import csv
 import psycopg2
 
 ################################################
@@ -7,7 +6,7 @@ import psycopg2
 ###############################################
 # connection setup
 
-conn = psycopg2.connect("host= localhost dbname= project user = postgres password = cherokee77")
+conn = psycopg2.connect("host= web0.eecs.uottawa.ca dbname= lguzm038 user = lguzm038 password = Kyorzkyre77! port = 15432")
 
 
 ####################################################
