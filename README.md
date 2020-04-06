@@ -67,16 +67,12 @@
 
 ### Installation of Database Instructions
 
-1. Restore the provided Database Backup (CSI2132PROJECTLEVCHRIS) using pgAdmin 4. The backup will only contain the
-schemas and skeleton tables with no data.
 
-2. Execute the provided data generator script (data_generator.py) to generate the data to be inserted. 
+1. Execute the insertion script (data_insertor.py) to insert the data into the database.
 
-3. Execute the insertion script (data_insertor.py) to insert the data into the database.
+3. Database set up.
 
-4. Database set up.
-
-5. [UI INSTRUCTIONS HERE]
+4. [UI INSTRUCTIONS HERE]
 
 ...
 
