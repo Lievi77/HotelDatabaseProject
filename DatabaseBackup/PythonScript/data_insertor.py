@@ -8,6 +8,20 @@ import psycopg2
 
 conn = psycopg2.connect("host= web0.eecs.uottawa.ca dbname= lguzm038 user = lguzm038 password = Kyorzkyre77! port = 15432")
 
+cur = conn.cursor()
+
+cur.execute("TRUNCATE users.user_info CASCADE;")
+cur.execute("TRUNCATE users.host CASCADE;")
+cur.execute("TRUNCATE users.guest CASCADE;")
+cur.execute("TRUNCATE transactions.payment_info CASCADE;")
+cur.execute("TRUNCATE transactions.pricing CASCADE;")
+cur.execute("TRUNCATE properties.properties_info CASCADE;")
+cur.execute("TRUNCATE properties.rental_agreement CASCADE;")
+cur.execute("TRUNCATE management.branch_info CASCADE;")
+cur.execute("TRUNCATE management.employee_info CASCADE;")
+cur.execute("TRUNCATE management.review_info CASCADE;")
+
+
 
 ####################################################
 ######## Data insertor for USERS schema ###########

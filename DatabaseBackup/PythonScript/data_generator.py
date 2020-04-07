@@ -388,7 +388,18 @@ pool_of_branch_names = ["Spice branch", "Nivea Branch", "Frame Branch", "Cactus 
                         "Bulb Branch", "Opossum Branch", "Spice Branch", "Soul Branch",
                         "Eraser Branch", "Holy Branch", "Catacombs Branch",
                         "Casio Branch", "Library Branch", "Coffee Branch", "Yellow Dog Branch",
-                        "Shark Branch", "Water Branch"]
+                        "Shark Branch", "Water Branch", "Clinton Branch", "Simon Branch",
+                        "Hello Kitty Branch", "Lemonade Branch", "Sudoku branch", "Tetrapak Branch"
+                        , "Hello Branch", "Sudoku Branch", "Git Branch", "Doll Branch", "MLA Branch"
+                        ,"APA Branch", "Juarez Branch", "Turtle Branch", "Sedona Branch",
+                        "Occoltism Branch", "Serena Branch", "Wolf Branch", "Piggie Branch",
+                        "Chakira Branch", "Earbuds Branch", "Lipstick Branch", "Lonely Branch",
+                        "Calculator Branch", "Pen Branch", "Recycle Branch", "TicTac Branch",
+                        "Smile Branch", "AP Branch", "Penhouse Branch", "Red Branch", "Corn Branch",
+                        "Green Branch", "Frame Branch", "Paper Branch", "Scranton Branch", "Terranova Branch",
+                        "Snail Branch", "Gutierrez Branch", "Diswasher Branch", "Cowboy Branch", "Bill Branch",
+                        "McCane Branch", "Tablet Branch", "Lucifer Branch", "Hell Branch","Underwater Branch", "Mars Branch",
+                        "Jupiter Branch"]
 
 # generate id pool and reset seed to 1
 pool_of_branch_ids = generate_id_pool(69)
