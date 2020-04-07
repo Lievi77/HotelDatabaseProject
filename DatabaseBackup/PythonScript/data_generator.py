@@ -25,19 +25,24 @@ pool_of_states = ["California",
 
 pool_of_names = ["Savy", "Camron", "Lev ", "Chris", "Cesar", "Andrew", "David", "Sam"
     , "Parth", "Anne", "Melissa", "Monica", "Rebeca", "Ehecatl",
-                 "Jason", "Sandy", "Omer"]
+                 "Jason", "Sandy", "Omer", "Colera" , "Ariel", "Paty", "Sergio",
+                 "Olivia", "Conrado", "Baldomero", "Alicia", "Cuitlahuac", "Moctezuma",
+                 "Neza", "Papriko", "Diana", "Natalia", "Ana", "Miguel", "Togno",
+                 "Sardina", "Colyuz", "Susana"]
 
 pool_of_middle_names = [" ", "Chavez", "Emilio",
                         "Gutierrez", "Samantha", "Roberto",
                         "Tonatiuh", "Colibri", "Santana", "Villa", "Doroteo",
-                        "Arango", "Emiliano", "Madero", "Lenin", "Evgueni", "Yuri"]
+                        "Arango", "Emiliano", "Madero", "Lenin", "Evgueni", "Yuri",
+                        "Dominguez", "Arellano", "Felix", "Castilla"]
 
 pool_of_last_names = ["Guzman", "Aparicio",
                       "Mika", "Eufracio", "Branco",
                       "Zarepour", "Choolhon", "Bundhoo",
                       "Sekhon", "Pochapsky",
                       "D'souza", "Wedia", "Wu", "Li", "Abubaker",
-                      "Bengali", "Hernandez"]
+                      "Bengali", "Hernandez", "Santana", "Juarez", "Sendero", "Melano",
+                      "Horia", "Conejo", "Pastilla"]
 
 pool_of_cities = ["Texcoco", "Ottawa",
                   "Herst", "Tlaxcala",
