@@ -1,7 +1,7 @@
 import click, psycopg2, os
 from psycopg2 import sql
 from colorama import init, Fore, Back, Style
-from config import config
+from .config import config
 
 
 
