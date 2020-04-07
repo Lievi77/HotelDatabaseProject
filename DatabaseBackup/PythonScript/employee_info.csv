@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 employee_id,first_name,last_name,city,country,works_for_branch_id,email,phone_number,salary,position,street_name,street_number,manages_branch_id
 6000,Ronald,Higashikata,Herst,Russia,830,babyshark7968@employee.com,3170956284,2642,IT support,Warudo street,605,-1
 6001,Theodore,Costello,Texcoco,Mexico,806,eloteasado8065@employee.com,3604198275,2386,counter,Warudo street,779,-1
@@ -199,3 +200,206 @@ employee_id,first_name,last_name,city,country,works_for_branch_id,email,phone_nu
 6197,Monique,Cujoh,Cafe Pisado,Brazil,984,mathpro6293@employee.com,7389024165,2214,cleaner,Bucciarati street,709,-1
 6198,Theodore,Kujo,Cafe Pisado,Spain,855,bunny0263@employee.com,5826041973,2893,IT support,Papaya street,308,-1
 6199,Josuke,Joestar,Texcoco,China,911,eloteasado9568@employee.com,5341987620,2777,broker,Fish street,67,-1
+=======
+employee_id,first_name,last_name,city,country,works_for_branch_id,email,phone_number,salary,position,street_name,street_number,manages_branch_id
+6000,Ronald,Higashikata,Herst,Russia,830,babyshark7968@employee.com,3170956284,2642,IT support,Warudo street,605,-1
+6001,Theodore,Costello,Texcoco,Mexico,806,eloteasado8065@employee.com,3604198275,2386,counter,Warudo street,779,-1
+6002,Jolyne,Cujoh,Texcoco,Tenochtitlan,942,eloteasado1240@employee.com,5864912730,5282,manager,Warudo street,761,922
+6003,Dio,Dali,Toronto,Portugal,940,cactus5179@employee.com,8124375609,1631,cleaner,Bucciarati street,868,-1
+6004,Dio,Perez,Toronto,Peru,928,employee0387@employee.com,8593240167,2945,estate agent,Cuyo street,492,-1
+6005,Jonathan,Higashikata,Halifax,Bolivia,905,babyshark5690@employee.com,8953401276,2635,cleaner,Megalodon street,816,-1
+6006,Joe,Speedwagon,Herst,Canada,804,babyshark0432@employee.com,1258094376,2457,IT support,Papaya street,465,-1
+6007,Joseph,Hernandez,Mazunte,Japan,806,mathpro6597@employee.com,3412587690,1036,counter,TimeGrove street,149,-1
+6008,Monica,NijimuraConrado,Toronto,China,980,daddyshark6835@employee.com,8734509216,2510,cleaner,Papaya street,128,-1
+6009,Ted,Speedwagon,White Plains,Canada,819,mathpro4269@employee.com,4209761835,2275,IT support,Megalodon street,38,-1
+6010,Dio,Kujo,Nezahualcoyotl,Japan,852,mommyshark6370@employee.com,6470283195,2756,counter,Melon street,830,-1
+6011,Ronald,Costello,Hamilton,Brazil,868,eloteasado1658@employee.com,8730564921,6744,manager,MistaTrish street,340,868
+6012,Joe,Costello,New York,Belorussia,829,mathpro3724@employee.com,8150367429,2259,cleaner,Pollo street,800,-1
+6013,Dio,Brando,Tizatlan,Canada,868,diavolo4813@employee.com,4106279385,1384,cleaner,Warudo street,804,-1
+6014,Robert,Joestar,Tlaxcala,China,842,eloteasado3219@employee.com,6847235091,1055,cleaner,Cuyo street,805,-1
+6015,Steve,NijimuraConrado,New York,China,900,diavolo6182@employee.com,9712843650,2109,counter,Warudo street,314,-1
+6016,Ted,Kujo,Nezahualcoyotl,Canada,871,pianomaster7158@employee.com,6402198753,9743,manager,Juarez street,250,952
+6017,Bernie,Speedwagon,Tizatlan,Spain,818,mathpro8190@employee.com,0453619287,6419,manager,MistaTrish street,153,845
+6018,Ronald,Costello,White Plains,Japan,981,daddyshark9421@employee.com,2806941735,6293,manager,Bucciarati street,882,812
+6019,Bernie,Cujoh,Herst,China,910,daddyshark4876@employee.com,8703215496,5154,manager,Bucciarati street,363,815
+6020,Ronald,Higashikata,Oaxaca,Colombia,866,mathpro6924@employee.com,1370942856,1640,counter,Fish street,703,-1
+6021,Josuke,Kujo,Hamilton,Belorussia,943,mommyshark4307@employee.com,8524176390,2436,counter,Bucciarati street,754,-1
+6022,Jolyne,Higashikata,Herst,Japan,955,daddyshark9621@employee.com,4639507218,2054,estate agent,Fugo street,168,-1
+6023,Monica,Espinoza,Herst,Russia,960,pianomaster4126@employee.com,9176834502,1258,estate agent,Pollo street,930,-1
+6024,Josuke,Kujo,Tlaxcala,Tenochtitlan,953,daddyshark6142@employee.com,3601497528,1354,counter,Papaya street,151,-1
+6025,Ted,Cujoh,White Plains,Russia,974,babyshark2853@employee.com,6134782059,5108,manager,Papaya street,988,939
+6026,Ronald,Brando,Mazatlan,Portugal,946,panteon4658@employee.com,8507392146,2399,IT support,Pollo street,504,-1
+6027,Theodore,Perez,Mexico City,Spain,852,daddyshark0437@employee.com,9865721304,5028,manager,TimeGrove street,593,973
+6028,Robert,Dali,New York,Canada,926,cactus3409@employee.com,2648107593,2114,IT support,Papaya street,155,-1
+6029,Jolyne,Cujoh,Mazunte,Peru,919,daddyshark0415@employee.com,9612035487,2302,estate agent,Bucciarati street,282,-1
+6030,Steve,Kujo,Mazatlan,Brazil,860,diavolo4185@employee.com,8574601329,6901,manager,Megalodon street,409,900
+6031,Sullivan,Hernandez,Missasauga,Belorussia,983,employee4306@employee.com,9653127048,6213,manager,Papaya street,470,955
+6032,Sullivan,Joestar,Oaxaca,China,892,mathpro6315@employee.com,3410792568,1113,cleaner,MistaTrish street,611,-1
+6033,Salvador,Torres,Halifax,United States,926,cactus8759@employee.com,4120835976,2993,counter,Warudo street,241,-1
+6034,Steve,Hernandez,Mexico City,Brazil,915,cactus4579@employee.com,1390658724,1819,counter,Wuhan street,901,-1
+6035,Ronald,Torres,Texcoco,Mexico,899,professional8062@employee.com,2175904638,2911,cleaner,Papaya street,799,-1
+6036,Theodore,Dali,Herst,Brazil,807,babyshark2435@employee.com,7659281043,1877,broker,Pollo street,714,-1
+6037,Monica,Costello,Hamilton,Brazil,982,daddyshark6145@employee.com,9148065372,2304,cleaner,Juarez street,934,-1
+6038,Josuke,Espinoza,Nezahualcoyotl,Japan,880,vampirehunter2803@employee.com,2670549813,1618,cleaner,Cuyo street,880,-1
+6039,Dio,Speedwagon,Missasauga,Belorussia,988,professional4618@employee.com,4167895320,8941,manager,Wuhan street,668,826
+6040,Jolyne,Espinoza,Mazatlan,Mexico,874,cactus2358@employee.com,8513270649,1610,estate agent,Melon street,361,-1
+6041,Joe,Costello,Mazatlan,Bolivia,802,daddyshark1257@employee.com,5913264780,5459,manager,Cuyo street,536,834
+6042,Josuke,Higashikata,Missasauga,USSR,979,mommyshark5983@employee.com,4759610382,6092,manager,Wuhan street,784,828
+6043,Robert,NijimuraConrado,Ottawa,Japan,939,eloteasado4132@employee.com,1896074235,8015,manager,Bucciarati street,826,924
+6044,Steve,Kujo,Halifax,Indonesia,860,bunny7536@employee.com,7143806259,2261,estate agent,Megalodon street,815,-1
+6045,Robert,Speedwagon,Nezahualcoyotl,China,801,employee4016@employee.com,4856972310,9760,manager,Fish street,309,878
+6046,Ronald,Espinoza,Cafe Pisado,Colombia,940,panteon2403@employee.com,9053628741,1550,estate agent,Fish street,278,-1
+6047,Jonathan,Perez,Mazunte,Belorussia,899,babyshark1759@employee.com,6201859437,2923,broker,Megalodon street,294,-1
+6048,Robert,NijimuraConrado,Missasauga,Tenochtitlan,885,panteon7398@employee.com,6187954203,1318,broker,Fish street,793,-1
+6049,Theodore,Dali,Toronto,Mexico,822,bunny9034@employee.com,6508743291,1570,IT support,Wuhan street,491,-1
+6050,Monica,Torres,Halifax,Canada,899,pianomaster7493@employee.com,1798346052,2818,IT support,Megalodon street,295,-1
+6051,Josuke,Perez,Halifax,Belorussia,924,pianomaster0549@employee.com,8746012953,1266,counter,Papaya street,199,-1
+6052,Robert,Espinoza,Ottawa,Bolivia,838,bunny4975@employee.com,4971325068,6484,manager,Pollo street,710,989
+6053,Jolyne,Espinoza,Oaxaca,United States,929,diavolo8239@employee.com,9782014635,2301,cleaner,Megalodon street,848,-1
+6054,Monica,Higashikata,Toronto,Japan,857,mommyshark3849@employee.com,5086241793,2281,IT support,Fugo street,349,-1
+6055,Joe,Higashikata,Mazatlan,Spain,805,pianomaster5920@employee.com,4208759163,2084,broker,Cuyo street,370,-1
+6056,Salvador,Brando,Oaxaca,Spain,895,cactus3152@employee.com,0859217463,8430,manager,TimeGrove street,308,937
+6057,Bernie,Perez,White Plains,Colombia,813,mommyshark8129@employee.com,3647028915,1825,counter,Bucciarati street,106,-1
+6058,Jonathan,Brando,Nezahualcoyotl,Bolivia,975,mommyshark0475@employee.com,2914753680,1318,counter,Fugo street,814,-1
+6059,Dio,Hernandez,Mexico City,Japan,953,professional4908@employee.com,0265493718,2911,broker,Melon street,418,-1
+6060,Dio,Higashikata,Cafe Pisado,United States,825,babyshark0986@employee.com,1254867903,2151,cleaner,Melon street,892,-1
+6061,Sullivan,Brando,Ottawa,Belorussia,908,cactus5408@employee.com,6982753401,1699,cleaner,Doll street,116,-1
+6062,Sullivan,Espinoza,Mazunte,Belorussia,993,cactus1079@employee.com,6295107384,1944,IT support,Bucciarati street,482,-1
+6063,Jonathan,Hernandez,Halifax,Tenochtitlan,912,bunny8172@employee.com,2903674851,2568,estate agent,TimeGrove street,683,-1
+6064,Steve,Joestar,Oaxaca,Bolivia,827,mathpro0768@employee.com,3860419725,1489,IT support,Juarez street,793,-1
+6065,Sullivan,Joestar,Mexico City,Mexico,931,employee6304@employee.com,3817950246,2146,cleaner,Juarez street,656,-1
+6066,Josuke,Speedwagon,Mazatlan,USSR,999,vampirehunter0472@employee.com,6284573910,1809,IT support,Bucciarati street,398,-1
+6067,Ted,Hernandez,Missasauga,Portugal,838,mathpro9426@employee.com,9152864730,2158,broker,Fish street,13,-1
+6068,Ronald,Joestar,Missasauga,USSR,850,pianomaster9834@employee.com,6324851079,1117,IT support,Cuyo street,764,-1
+6069,Dio,Dali,Hamilton,Colombia,951,mommyshark2817@employee.com,6241538709,2452,broker,Wuhan street,356,-1
+6070,Josuke,Espinoza,White Plains,Canada,931,mathpro3702@employee.com,9156320784,2959,counter,Doll street,841,-1
+6071,Theodore,Brando,Hamilton,USSR,990,employee8960@employee.com,3628547901,2563,counter,Pollo street,387,-1
+6072,Josuke,Espinoza,Tizatlan,Russia,809,eloteasado2836@employee.com,6493270581,5130,manager,MistaTrish street,45,916
+6073,Josuke,Kujo,Mexico City,Belorussia,862,pianomaster1067@employee.com,7324618950,1736,counter,Doll street,898,-1
+6074,Monique,Costello,Ottawa,China,811,mommyshark2943@employee.com,0816439725,2854,broker,Melon street,481,-1
+6075,Monica,Espinoza,Mazunte,Mexico,909,mathpro9524@employee.com,9840723165,2175,cleaner,Megalodon street,14,-1
+6076,Theodore,Costello,New York,Portugal,992,daddyshark0513@employee.com,1872450396,1299,counter,Pollo street,151,-1
+6077,Theodore,Dali,New York,Bolivia,907,diavolo5490@employee.com,1346872509,1348,IT support,Papaya street,423,-1
+6078,Monique,Joestar,White Plains,Russia,860,employee1470@employee.com,8436902175,1905,cleaner,Fugo street,372,-1
+6079,Monica,Speedwagon,New York,Tenochtitlan,991,professional8061@employee.com,3914760258,2600,counter,Cuyo street,369,-1
+6080,Jolyne,Costello,Nezahualcoyotl,USSR,962,vampirehunter0791@employee.com,4807165923,1591,estate agent,Warudo street,502,-1
+6081,Jonathan,Costello,Mexico City,Canada,849,mommyshark2347@employee.com,6750394218,1151,broker,Doll street,430,-1
+6082,Ted,NijimuraConrado,Mazatlan,Indonesia,955,mommyshark8974@employee.com,9781245360,1635,broker,Cuyo street,619,-1
+6083,Monica,Torres,Cafe Pisado,China,891,employee8735@employee.com,7523604189,5442,manager,TimeGrove street,15,878
+6084,Joseph,Costello,White Plains,United States,853,cactus1598@employee.com,1243789056,1601,broker,TimeGrove street,430,-1
+6085,Jolyne,Torres,Herst,Brazil,904,employee9035@employee.com,3968145270,2459,cleaner,Bucciarati street,703,-1
+6086,Steve,Hernandez,Mazunte,Peru,972,professional0564@employee.com,5872406319,2724,cleaner,Papaya street,770,-1
+6087,Monique,Perez,Mazunte,Japan,928,employee9462@employee.com,3014657892,1446,cleaner,Cuyo street,688,-1
+6088,Monica,Dali,Texcoco,Canada,814,vampirehunter0852@employee.com,0937124658,1431,counter,TimeGrove street,908,-1
+6089,Monica,Kujo,Cafe Pisado,United States,884,diavolo6104@employee.com,2816754039,2627,cleaner,Melon street,899,-1
+6090,Ronald,Brando,Cafe Pisado,Colombia,859,vampirehunter4509@employee.com,1736950824,2491,IT support,Juarez street,89,-1
+6091,Bernie,Cujoh,Missasauga,Bolivia,908,employee0432@employee.com,5976843210,2908,estate agent,Warudo street,851,-1
+6092,Josuke,Costello,Toronto,Japan,861,pianomaster6482@employee.com,5672893104,1619,counter,Wuhan street,309,-1
+6093,Ronald,Espinoza,Oaxaca,Peru,917,eloteasado2980@employee.com,9432561780,1877,cleaner,Wuhan street,563,-1
+6094,Jonathan,Hernandez,Tlaxcala,Colombia,975,diavolo1274@employee.com,0935264718,1246,IT support,Wuhan street,971,-1
+6095,Dio,Speedwagon,Missasauga,Brazil,815,employee4561@employee.com,5032948761,1755,counter,Megalodon street,911,-1
+6096,Joe,Joestar,Toronto,USSR,819,mathpro9867@employee.com,7891426305,1468,counter,MistaTrish street,145,-1
+6097,Ronald,Torres,Halifax,Mexico,841,babyshark5206@employee.com,5139680472,2177,counter,Bucciarati street,858,-1
+6098,Salvador,Kujo,New York,Indonesia,941,vampirehunter0574@employee.com,5270489316,1692,estate agent,TimeGrove street,871,-1
+6099,Monique,Cujoh,Herst,Belorussia,804,professional5392@employee.com,4973021865,1883,cleaner,TimeGrove street,949,-1
+6100,Ted,Cujoh,Nezahualcoyotl,Indonesia,947,mathpro9427@employee.com,2513947680,2988,estate agent,Bucciarati street,248,-1
+6101,Monica,NijimuraConrado,Tizatlan,Canada,989,pianomaster0874@employee.com,7524836019,2215,counter,Pollo street,382,-1
+6102,Monica,NijimuraConrado,Nezahualcoyotl,Portugal,912,employee8413@employee.com,5321807964,9017,manager,Cuyo street,589,922
+6103,Bernie,Higashikata,Ottawa,China,967,professional8369@employee.com,1549628037,8501,manager,Fish street,522,919
+6104,Steve,Joestar,Mazatlan,Bolivia,879,mommyshark3425@employee.com,0513647289,8623,manager,Fugo street,211,893
+6105,Monica,Brando,Tlaxcala,Japan,937,bunny2761@employee.com,7904163528,2588,broker,MistaTrish street,177,-1
+6106,Joe,Joestar,Texcoco,United States,971,pianomaster8376@employee.com,5798036214,1952,estate agent,Melon street,519,-1
+6107,Theodore,Joestar,Mexico City,Tenochtitlan,957,cactus7829@employee.com,2594186307,1210,IT support,TimeGrove street,53,-1
+6108,Jolyne,Joestar,Nezahualcoyotl,Belorussia,871,bunny0675@employee.com,7485932106,1368,estate agent,Fish street,157,-1
+6109,Jolyne,Brando,Tlaxcala,Belorussia,880,babyshark8594@employee.com,9753861024,7009,manager,MistaTrish street,328,813
+6110,Monica,Costello,Hamilton,Mexico,888,diavolo5638@employee.com,4358761092,6820,manager,Juarez street,842,859
+6111,Joseph,Dali,Halifax,Ukraine,824,bunny0516@employee.com,6214578093,2110,broker,Fugo street,653,-1
+6112,Joe,Kujo,Halifax,Peru,842,daddyshark2913@employee.com,9823174605,2595,broker,Wuhan street,231,-1
+6113,Bernie,NijimuraConrado,Mazunte,Indonesia,808,eloteasado1274@employee.com,2357194068,2083,cleaner,Fish street,908,-1
+6114,Ted,NijimuraConrado,Tizatlan,Brazil,976,panteon0492@employee.com,8316059742,2905,IT support,Pollo street,535,-1
+6115,Josuke,Perez,Missasauga,Colombia,910,diavolo5683@employee.com,5831064927,1806,IT support,Fish street,803,-1
+6116,Jolyne,Higashikata,Tlaxcala,United States,844,daddyshark0967@employee.com,4628173509,2410,counter,Megalodon street,372,-1
+6117,Monica,Costello,Tlaxcala,USSR,962,eloteasado1628@employee.com,0521793846,2536,cleaner,MistaTrish street,603,-1
+6118,Robert,Brando,Mazunte,Bolivia,824,professional8691@employee.com,8679523041,8025,manager,Juarez street,363,826
+6119,Theodore,Kujo,Tlaxcala,Canada,800,daddyshark6312@employee.com,7064238591,8918,manager,Warudo street,275,912
+6120,Joseph,Torres,Mazunte,China,936,vampirehunter4825@employee.com,7948612350,2146,IT support,Pollo street,407,-1
+6121,Josuke,Torres,Tizatlan,Ukraine,804,pianomaster2716@employee.com,5486721093,1912,cleaner,Fish street,747,-1
+6122,Joseph,Espinoza,Nezahualcoyotl,Colombia,982,vampirehunter8347@employee.com,1740526893,2403,cleaner,Melon street,619,-1
+6123,Jolyne,Brando,Mazunte,Bolivia,887,mommyshark0329@employee.com,9107452638,2772,counter,Warudo street,91,-1
+6124,Jonathan,NijimuraConrado,Hamilton,Russia,957,professional4316@employee.com,9407382156,1379,cleaner,Warudo street,786,-1
+6125,Monica,Perez,Hamilton,Tenochtitlan,890,diavolo8296@employee.com,3902786541,2415,counter,Bucciarati street,533,-1
+6126,Dio,Brando,Mazunte,Mexico,920,mathpro4936@employee.com,2608357491,1202,IT support,Papaya street,718,-1
+6127,Robert,Kujo,Mazatlan,Belorussia,825,employee3718@employee.com,7563490218,1260,estate agent,Cuyo street,299,-1
+6128,Dio,Higashikata,Hamilton,Japan,851,mommyshark4762@employee.com,8156942307,1930,broker,Papaya street,768,-1
+6129,Theodore,Cujoh,Oaxaca,Canada,904,cactus6074@employee.com,2863140579,5688,manager,Doll street,40,863
+6130,Jolyne,Brando,White Plains,United States,888,panteon0186@employee.com,0452983617,2818,counter,Doll street,363,-1
+6131,Bernie,Costello,Tizatlan,USSR,962,panteon3486@employee.com,8547032691,2763,counter,Wuhan street,86,-1
+6132,Joe,Dali,Halifax,Colombia,842,daddyshark9153@employee.com,3209167854,2305,IT support,Papaya street,523,-1
+6133,Jolyne,Costello,Herst,Canada,818,employee1875@employee.com,8704136295,1498,cleaner,Papaya street,219,-1
+6134,Steve,Cujoh,Missasauga,Portugal,868,mathpro0985@employee.com,7038295641,1061,counter,Warudo street,651,-1
+6135,Ronald,Higashikata,Texcoco,China,986,vampirehunter8371@employee.com,8031956742,1815,counter,Cuyo street,556,-1
+6136,Joe,Costello,Missasauga,Spain,903,daddyshark8972@employee.com,1274396805,1296,broker,Warudo street,326,-1
+6137,Dio,Speedwagon,Hamilton,Indonesia,928,panteon1024@employee.com,6894270351,1778,IT support,Papaya street,931,-1
+6138,Salvador,Higashikata,Missasauga,Brazil,937,daddyshark8230@employee.com,3720598641,2450,cleaner,Pollo street,440,-1
+6139,Josuke,Joestar,Halifax,China,969,pianomaster6317@employee.com,5873426901,2928,broker,TimeGrove street,364,-1
+6140,Dio,Torres,Tizatlan,Spain,958,pianomaster2510@employee.com,6709381524,2386,broker,Cuyo street,283,-1
+6141,Joseph,Joestar,Toronto,Tenochtitlan,975,mathpro7395@employee.com,6048259731,2053,IT support,Doll street,185,-1
+6142,Bernie,Cujoh,Herst,Peru,916,diavolo6785@employee.com,1795064832,1361,broker,Megalodon street,488,-1
+6143,Joseph,Speedwagon,Cafe Pisado,Belorussia,860,employee5083@employee.com,8361750492,1009,broker,Fish street,551,-1
+6144,Sullivan,Speedwagon,Hamilton,USSR,865,eloteasado8736@employee.com,0683472159,1967,cleaner,Fugo street,749,-1
+6145,Robert,Joestar,Hamilton,Peru,939,daddyshark8927@employee.com,6742538910,1734,counter,Megalodon street,557,-1
+6146,Bernie,Cujoh,Texcoco,Canada,867,cactus6249@employee.com,9470136825,1116,estate agent,Wuhan street,69,-1
+6147,Theodore,Hernandez,Cafe Pisado,Mexico,814,mathpro0875@employee.com,3570289416,1469,cleaner,Fugo street,743,-1
+6148,Jolyne,Espinoza,Nezahualcoyotl,Tenochtitlan,910,cactus6421@employee.com,0583942671,2872,IT support,Fugo street,640,-1
+6149,Theodore,Espinoza,Halifax,Indonesia,980,employee5826@employee.com,3426519870,2597,IT support,Cuyo street,544,-1
+6150,Monique,Speedwagon,Nezahualcoyotl,USSR,839,employee6743@employee.com,9572048316,1016,cleaner,Juarez street,24,-1
+6151,Sullivan,Cujoh,Halifax,China,902,cactus8945@employee.com,4867039521,2404,counter,Pollo street,27,-1
+6152,Dio,Perez,Ottawa,Ukraine,888,panteon0754@employee.com,0857396241,2506,estate agent,Juarez street,878,-1
+6153,Salvador,Speedwagon,Hamilton,Portugal,844,bunny0247@employee.com,9628437510,2104,estate agent,Pollo street,421,-1
+6154,Ronald,Costello,Toronto,China,900,mommyshark8214@employee.com,9643802715,1255,broker,Papaya street,988,-1
+6155,Salvador,Brando,Tlaxcala,China,838,babyshark3901@employee.com,1985046372,2669,counter,Melon street,116,-1
+6156,Monica,Torres,Mexico City,USSR,840,daddyshark9728@employee.com,9627405318,1178,estate agent,Cuyo street,892,-1
+6157,Monica,NijimuraConrado,Missasauga,Ukraine,951,mommyshark4760@employee.com,3428607915,2662,estate agent,Doll street,159,-1
+6158,Joe,Brando,Nezahualcoyotl,Russia,994,employee5234@employee.com,0372518649,8604,manager,Papaya street,54,828
+6159,Steve,NijimuraConrado,Mazatlan,Belorussia,850,employee3962@employee.com,4076913582,1449,cleaner,Juarez street,436,-1
+6160,Dio,Joestar,Tlaxcala,China,932,eloteasado3298@employee.com,5987241063,2847,estate agent,MistaTrish street,610,-1
+6161,Salvador,Costello,Texcoco,Peru,978,employee4318@employee.com,5930672418,2205,broker,MistaTrish street,707,-1
+6162,Joe,Dali,Missasauga,Portugal,957,pianomaster6372@employee.com,4019687253,1866,broker,TimeGrove street,636,-1
+6163,Salvador,Brando,Mexico City,Colombia,987,mommyshark3769@employee.com,1625839740,1600,broker,MistaTrish street,142,-1
+6164,Joe,Perez,Mazatlan,Ukraine,921,professional6581@employee.com,4097623158,1538,broker,MistaTrish street,917,-1
+6165,Joseph,Joestar,Missasauga,Spain,972,babyshark7260@employee.com,1350426987,2887,counter,Cuyo street,352,-1
+6166,Bernie,Higashikata,Nezahualcoyotl,Bolivia,911,cactus3810@employee.com,5078129346,1079,cleaner,Fish street,399,-1
+6167,Theodore,Dali,White Plains,Tenochtitlan,812,employee5674@employee.com,3812597046,1858,IT support,Doll street,404,-1
+6168,Ted,Cujoh,Texcoco,Ukraine,808,mathpro1246@employee.com,7640283915,1086,counter,Doll street,408,-1
+6169,Salvador,Higashikata,Mazatlan,Ukraine,800,cactus6512@employee.com,2317548906,2396,estate agent,Cuyo street,687,-1
+6170,Salvador,Espinoza,Hamilton,Peru,813,cactus6931@employee.com,3174625089,2374,counter,Papaya street,634,-1
+6171,Joe,NijimuraConrado,Oaxaca,Russia,892,mommyshark4836@employee.com,3807125496,2338,counter,Doll street,33,-1
+6172,Bernie,Dali,Missasauga,Russia,854,eloteasado4608@employee.com,0273856194,2638,broker,Fugo street,270,-1
+6173,Josuke,Higashikata,Oaxaca,Portugal,836,bunny0149@employee.com,7396205148,2670,estate agent,Fugo street,929,-1
+6174,Robert,Dali,Nezahualcoyotl,Indonesia,994,employee6940@employee.com,1258437096,2245,estate agent,Warudo street,115,-1
+6175,Bernie,NijimuraConrado,Mazunte,Spain,844,eloteasado2315@employee.com,5976134208,6625,manager,Warudo street,781,974
+6176,Ronald,Brando,Missasauga,Mexico,801,diavolo4302@employee.com,2915743608,2888,counter,MistaTrish street,164,-1
+6177,Robert,Kujo,Mexico City,Indonesia,844,mommyshark1739@employee.com,1239456870,8048,manager,Melon street,540,820
+6178,Joe,Joestar,Mazunte,Tenochtitlan,942,mommyshark8324@employee.com,9165328740,2161,IT support,Wuhan street,53,-1
+6179,Monica,Costello,Cafe Pisado,Peru,969,cactus7581@employee.com,7394261058,2704,cleaner,Doll street,90,-1
+6180,Bernie,Dali,Mazatlan,Brazil,971,mathpro7061@employee.com,0487139526,2326,counter,Juarez street,172,-1
+6181,Monica,NijimuraConrado,Mexico City,Peru,804,daddyshark7954@employee.com,6093148275,2716,IT support,Melon street,36,-1
+6182,Ronald,Hernandez,Toronto,China,837,professional4865@employee.com,1890534762,8353,manager,Fish street,976,856
+6183,Ted,Joestar,Tizatlan,Brazil,935,eloteasado5476@employee.com,9836120475,7583,manager,MistaTrish street,540,822
+6184,Sullivan,Hernandez,Herst,Tenochtitlan,984,professional8027@employee.com,5738609142,2196,counter,Melon street,383,-1
+6185,Salvador,Brando,Cafe Pisado,Spain,878,cactus2435@employee.com,5930681274,1075,IT support,Papaya street,816,-1
+6186,Joe,Brando,Tizatlan,Mexico,833,panteon6549@employee.com,7068231945,1011,cleaner,MistaTrish street,155,-1
+6187,Josuke,NijimuraConrado,Oaxaca,Portugal,819,mommyshark3821@employee.com,6251970384,1721,broker,Cuyo street,920,-1
+6188,Ronald,NijimuraConrado,Texcoco,Canada,916,cactus6945@employee.com,2687935140,1016,broker,Papaya street,235,-1
+6189,Monica,Hernandez,Ottawa,Mexico,820,mommyshark7031@employee.com,6934821507,2813,cleaner,Melon street,355,-1
+6190,Monique,Brando,Tizatlan,Brazil,884,panteon8976@employee.com,1659840732,5649,manager,TimeGrove street,223,916
+6191,Monique,Brando,Missasauga,Belorussia,900,diavolo9564@employee.com,9137246805,1017,broker,Warudo street,976,-1
+6192,Steve,Dali,Oaxaca,Brazil,871,cactus8026@employee.com,9405726318,1882,estate agent,Cuyo street,144,-1
+6193,Josuke,Torres,Nezahualcoyotl,Bolivia,874,cactus6198@employee.com,8369042751,1417,IT support,Warudo street,19,-1
+6194,Jonathan,Kujo,Tizatlan,Bolivia,934,eloteasado6891@employee.com,3094681257,2115,counter,Papaya street,235,-1
+6195,Jonathan,Costello,Oaxaca,Japan,865,bunny5086@employee.com,7052639148,1245,IT support,Pollo street,976,-1
+6196,Salvador,NijimuraConrado,Tlaxcala,Tenochtitlan,818,employee1037@employee.com,1359278604,1171,estate agent,Bucciarati street,31,-1
+6197,Monique,Cujoh,Cafe Pisado,Brazil,984,mathpro6293@employee.com,7389024165,2214,cleaner,Bucciarati street,709,-1
+6198,Theodore,Kujo,Cafe Pisado,Spain,855,bunny0263@employee.com,5826041973,2893,IT support,Papaya street,308,-1
+6199,Josuke,Joestar,Texcoco,China,911,eloteasado9568@employee.com,5341987620,2777,broker,Fish street,67,-1
+>>>>>>> 3110543e902fce144c56ad94eecb5d1831b2b64b
