@@ -1,0 +1,5 @@
+click==7.1.1
+colorama==0.4.3
+psycopg2==2.8.4
+# Editable install with no version control (travelCLI==1.0)
+-e c:\users\ceaar\documents\programming\travelcli

@@ -1,0 +1,101 @@
+\documentclass[12pt, lettersize]{article}
+
+\usepackage{graphicx} %to insert images
+\graphicspath{ {}{} }%specify image location path. leave empty if images are on the same folder as the .tex source.
+ 
+%usage: \begin{figure}
+%\centering 
+%\includegraphics[width= (*scale*) \linewidth]{imagefile}
+%\end{figure}
+
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amscd}
+\usepackage{comment}
+\usepackage{color}
+
+\usepackage{enumerate}
+%to use personalized enumerations 
+%usage: \begin{enumerate}[*listing style you want. ex: i*]
+%content...
+%\end{enumerate}
+
+\theoremstyle{Remark}
+\newtheorem*{remark}{Remark}
+
+\usepackage{pgfplots}
+
+
+\usepackage[utf8]{inputenc}
+
+
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\usepackage{geometry}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+
+\lstset{style=mystyle} %to insert code directly from file.
+%usage: \lstinputlisting[language = *language*, firstline = *first line to insert, lastline= *last line to insert]{filename}
+
+\geometry{
+	total={170mm,230mm},
+	left=20mm,
+	top=20mm,
+}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\answertrue}{\color{red}\textbf{T}}
+\newcommand{\answerfalse}{\color{red}\textbf{F}}
+
+\setlength\parindent{0pt}
+
+
+\title{\Large \centering{Database Project  } \\ \large \textbf{ CSI2132 Section A \\  Professor: Dr. Paula Branco} }
+
+\author{ \large \textbf{Students:} Christopher Aris \\ 
+	\texttt{300031710, caris015@uottawa.ca} \\
+	Lev C. Guzman Aparicio \\
+	\texttt{300038033, lguzm038@uottawa.ca}
+	}
+
+
+\begin{document}
+	\begin{titlepage}
+		\maketitle
+	\end{titlepage}
+
+	\section{Languages Used}
+	
+\end{document}
