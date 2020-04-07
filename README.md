@@ -74,10 +74,10 @@
 
 4. [UI INSTRUCTIONS HERE]
 
- To install the CLI tool it is <span "font-size:12em;">**important**</span> that the guide is followed in order to make sure that no errors present themselves
+ To install the CLI tool it is <sub>important</sub> that the guide is followed in order to make sure that no errors present themselves
  
  - It is *strongly* advised that the program is ran in a virtual environment
- - It is <span "font-size: 12em;"> even more so</span> advised that it is run using the latest version of Python, but any Python 3.X version will suffice,
+ - It is <sub>even more so</sub> advised that it is run using the latest version of Python, but any Python 3.X version will suffice,
    please **do not use** Python 2.X binaries because there #WILL be errors
  - Once in a virtual environment run the command:
     ` pip install --editable .`   
