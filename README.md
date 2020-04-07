@@ -74,8 +74,26 @@
 
 4. [UI INSTRUCTIONS HERE]
 
-...
-
+ To install the CLI tool it is ##**important** that the guide is followed in order to make sure that no errors present themselves
+ 
+ - It is *strongly* advised that the program is ran in a virtual environment
+ - It is #*even more so* advised that it is run using the latest version of Python, but any Python 3.X version will suffice,
+   please **do not use** Python 2.X binaries because there #WILL be errors
+ - Once in a virtual environment run the command:
+    ` pip install --editable .`   
+        What this is essentially telling Python is to install the package in the current directory (which you guessed it, is our CLI Tool), the editable option will link the package to the directory location and mitigate any nasty import errors.
+        
+  - If on a UNIX system you might have to run the following instead:
+    `pip3 install --editable .` 
+        This specifies to your system to select a Python 3.X version if a Python 2.X is also installed (which is usally the case with Linux distros)
+  
+  - Once installed verify installation by checking for the package `travelCLI   v1.0`
+      Type in `pip list` or `pip3 list` (if on a UNIX system)
+   
+   - To finally start using the CLI Tool, the binding keyword is `controller` so if I were to run the check command I would do like so:
+   `$ controller check` 
+   
+   Note that you will need to edit the configuration file titled `database.ini` to change the credentials to appropriate ones
 ...
 
 ...
