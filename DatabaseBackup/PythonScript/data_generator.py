@@ -384,6 +384,12 @@ with open('rental_agreement.csv', 'w', ) as file:
 
 header = ["branch_id", "branch_name", "country", "num_employees", "manager_id"]
 
+pool_of_branch_names = ["Spice branch", "Nivea Branch", "Frame Branch", "Cactus Branch",
+                        "Bulb Branch", "Opossum Branch", "Spice Branch", "Soul Branch",
+                        "Eraser Branch", "Holy Branch", "Catacombs Branch",
+                        "Casio Branch", "Library Branch", "Coffee Branch", "Yellow Dog Branch",
+                        "Shark Branch", "Water Branch"]
+
 # generate id pool and reset seed to 1
 pool_of_branch_ids = generate_id_pool(69)
 pool_of_employee_ids = generate_id_pool(666)
@@ -400,7 +406,7 @@ with open('branch_info.csv', 'w', ) as file:
 
         branch_id = i + 800
 
-        branch_name = random.sample(pool_of_countries, 1)
+        branch_name = random.sample(pool_of_branch_names ,1)
         branch_name = branch_name[0]
         country = random.choice(pool_of_countries)
 
