@@ -78,7 +78,7 @@
  
  - It is *strongly* advised that the program is ran in a virtual environment
  - It is ***even more so*** advised that it is run using the latest version of Python, but any Python 3.X version will suffice,
-   please **do not use** Python 2.X binaries because there #WILL be errors
+   please **do not use** Python 2.X binaries because there ***WILL*** be errors
  - Once in a virtual environment run the command:
     ` pip install --editable .`   
         What this is essentially telling Python is to install the package in the current directory (which you guessed it, is our CLI Tool), the editable option will link the package to the directory location and mitigate any nasty import errors.
