@@ -74,7 +74,7 @@
 
 4. [UI INSTRUCTIONS HERE]
 
- To install the CLI tool it is ## important that the guide is followed in order to make sure that no errors present themselves
+ To install the CLI tool it is ## <h2>important</h2> that the guide is followed in order to make sure that no errors present themselves
  
  - It is *strongly* advised that the program is ran in a virtual environment
  - It is ## even more so advised that it is run using the latest version of Python, but any Python 3.X version will suffice,
