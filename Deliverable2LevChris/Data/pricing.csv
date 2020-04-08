@@ -1,0 +1,201 @@
+pricing_id,allowed_number_of_guests,valid_for_type,rules,amenities
+700,2,mansion,no smoking,garden
+701,1,basement,no loud noises,safe lock
+702,10,basement,only women,pool
+703,7,condo,only cats,safe lock
+704,9,room,no pets,private restroom
+705,7,apartment,only women,library
+706,1,apartment,no pets,pool
+707,0,house,no pets,safe lock
+708,10,villa,only cats,private restroom
+709,0,mansion,only women,large dining room
+710,7,basement,only women,garden
+711,3,house,only women,large dining room
+712,7,apartment,no pets,safe lock
+713,8,house,no smoking,induction stove
+714,10,house,pets allowed,pool
+715,5,house,only cats,library
+716,10,villa,pets allowed,garden
+717,9,basement,only cats,library
+718,0,basement,only women,private restroom
+719,6,basement,only men,garden
+720,8,house,no parties,pool
+721,7,house,no smoking,large dining room
+722,2,mansion,only cats,garden
+723,7,house,no pets,safe lock
+724,0,apartment,only cats,private restroom
+725,2,villa,only women,pool
+726,3,mansion,only women,safe lock
+727,8,apartment,no parties,safe lock
+728,4,house,no pets,safe lock
+729,8,room,only men,library
+730,8,villa,only cats,pool
+731,7,room,no parties,library
+732,8,villa,only cats,safe lock
+733,5,basement,no parties,pool
+734,8,mansion,no parties,safe lock
+735,9,condo,only women,private restroom
+736,2,mansion,only men,large dining room
+737,1,room,pets allowed,pool
+738,10,condo,no smoking,large dining room
+739,0,basement,no pets,large dining room
+740,4,villa,pets allowed,pool
+741,9,villa,no parties,garden
+742,1,villa,only men,garden
+743,8,villa,pets allowed,private restroom
+744,4,basement,no parties,safe lock
+745,7,condo,no pets,garden
+746,6,apartment,only cats,large dining room
+747,3,apartment,no smoking,garden
+748,8,villa,only cats,large dining room
+749,0,villa,no pets,safe lock
+750,2,condo,only men,safe lock
+751,8,house,only cats,library
+752,3,house,no loud noises,induction stove
+753,8,house,no pets,safe lock
+754,10,mansion,no parties,private restroom
+755,10,basement,no pets,private restroom
+756,4,villa,only women,pool
+757,4,condo,no smoking,garden
+758,4,house,only men,safe lock
+759,9,apartment,only men,pool
+760,8,room,no pets,library
+761,3,mansion,no loud noises,induction stove
+762,9,mansion,no pets,safe lock
+763,3,apartment,no smoking,induction stove
+764,9,house,only cats,library
+765,3,basement,no smoking,private restroom
+766,6,apartment,no loud noises,pool
+767,5,mansion,only cats,garden
+768,0,villa,only women,large dining room
+769,5,room,only men,garden
+770,6,villa,pets allowed,private restroom
+771,1,room,only cats,library
+772,5,room,no loud noises,large dining room
+773,8,villa,no smoking,private restroom
+774,0,condo,only men,induction stove
+775,2,mansion,only women,garden
+776,5,mansion,pets allowed,garden
+777,5,apartment,no smoking,garden
+778,3,room,no loud noises,induction stove
+779,9,mansion,no smoking,garden
+780,0,basement,no smoking,safe lock
+781,2,room,only men,garden
+782,1,mansion,only cats,pool
+783,9,mansion,only women,library
+784,1,apartment,no parties,garden
+785,9,mansion,no smoking,safe lock
+786,4,condo,no pets,large dining room
+787,4,condo,no pets,pool
+788,6,condo,no pets,induction stove
+789,3,room,only cats,induction stove
+790,1,basement,only men,private restroom
+791,3,villa,no smoking,safe lock
+792,6,room,pets allowed,library
+793,4,house,no loud noises,garden
+794,1,villa,no parties,pool
+795,0,condo,pets allowed,private restroom
+796,9,apartment,no loud noises,safe lock
+797,5,basement,no smoking,pool
+798,5,mansion,no loud noises,pool
+799,4,villa,no loud noises,private restroom
+800,5,apartment,only men,library
+801,3,apartment,only women,induction stove
+802,5,condo,pets allowed,pool
+803,7,condo,no parties,induction stove
+804,6,apartment,no pets,garden
+805,2,apartment,pets allowed,induction stove
+806,5,condo,no smoking,induction stove
+807,3,condo,only women,safe lock
+808,1,apartment,no smoking,private restroom
+809,1,condo,no pets,garden
+810,5,basement,no loud noises,large dining room
+811,2,condo,no parties,pool
+812,8,house,only men,induction stove
+813,2,villa,no parties,garden
+814,1,house,pets allowed,induction stove
+815,3,villa,no pets,large dining room
+816,5,room,only women,induction stove
+817,4,basement,only men,pool
+818,10,villa,pets allowed,large dining room
+819,1,house,no loud noises,large dining room
+820,6,mansion,pets allowed,library
+821,7,room,no loud noises,pool
+822,6,room,no parties,induction stove
+823,4,basement,no pets,large dining room
+824,10,basement,no pets,pool
+825,5,mansion,only men,library
+826,2,villa,pets allowed,large dining room
+827,4,basement,only cats,induction stove
+828,9,condo,only women,safe lock
+829,0,villa,no parties,library
+830,10,basement,only women,induction stove
+831,5,basement,no loud noises,induction stove
+832,6,apartment,pets allowed,private restroom
+833,3,condo,no smoking,large dining room
+834,8,house,no parties,induction stove
+835,8,room,only women,garden
+836,4,house,pets allowed,large dining room
+837,8,apartment,only men,private restroom
+838,7,mansion,no smoking,large dining room
+839,1,mansion,only cats,induction stove
+840,2,apartment,only cats,induction stove
+841,9,house,no pets,safe lock
+842,10,basement,no parties,safe lock
+843,8,room,only men,library
+844,0,mansion,no smoking,large dining room
+845,4,house,no smoking,garden
+846,1,villa,no smoking,safe lock
+847,3,room,only cats,large dining room
+848,6,basement,only men,garden
+849,7,villa,no loud noises,induction stove
+850,1,basement,only cats,pool
+851,10,apartment,pets allowed,induction stove
+852,6,house,no pets,induction stove
+853,8,basement,no pets,pool
+854,10,mansion,only women,large dining room
+855,4,villa,only men,garden
+856,2,mansion,only women,garden
+857,4,mansion,pets allowed,large dining room
+858,10,basement,only men,library
+859,5,basement,only cats,large dining room
+860,1,room,only women,library
+861,6,villa,pets allowed,large dining room
+862,1,room,no pets,pool
+863,9,house,no pets,library
+864,4,house,only men,pool
+865,8,apartment,pets allowed,safe lock
+866,8,house,no parties,large dining room
+867,8,apartment,no pets,pool
+868,7,house,no loud noises,garden
+869,4,mansion,only cats,garden
+870,10,mansion,no loud noises,pool
+871,10,basement,only cats,induction stove
+872,8,condo,pets allowed,private restroom
+873,9,house,only women,safe lock
+874,9,room,only cats,private restroom
+875,4,house,only men,safe lock
+876,9,house,only women,garden
+877,8,condo,only cats,library
+878,6,basement,no parties,large dining room
+879,9,mansion,no smoking,safe lock
+880,3,house,pets allowed,private restroom
+881,0,basement,only men,private restroom
+882,6,room,pets allowed,large dining room
+883,2,room,no smoking,large dining room
+884,9,condo,no parties,garden
+885,6,room,pets allowed,induction stove
+886,7,room,pets allowed,safe lock
+887,2,basement,no pets,garden
+888,8,condo,only cats,pool
+889,5,condo,no loud noises,pool
+890,2,mansion,only men,private restroom
+891,1,basement,pets allowed,library
+892,4,villa,only women,induction stove
+893,5,apartment,no smoking,pool
+894,8,house,no parties,safe lock
+895,8,mansion,no pets,induction stove
+896,4,house,pets allowed,garden
+897,9,house,only women,safe lock
+898,8,basement,only men,safe lock
+899,4,room,no parties,private restroom

@@ -1,0 +1,201 @@
+property_id,type,number_of_rooms,owner_id,available_date,pricing_id,location
+500,villa,10,97,2005-10-16,764,Ontario
+501,basement,8,60,2003-01-19,796,Tlaxcala
+502,condo,8,3,1982-10-04,798,Sonora
+503,mansion,1,89,1983-05-26,767,Oaxaca
+504,mansion,2,40,2006-12-23,704,California
+505,house,9,1,1982-05-04,796,Tlaxcala
+506,basement,1,67,1985-05-07,894,Chihuahua
+507,basement,9,29,1994-10-08,758,Oaxaca
+508,room,8,37,1986-02-28,704,Sonora
+509,room,9,82,2005-08-13,746,Quebec
+510,condo,6,92,1984-03-14,881,Baja California
+511,basement,9,85,2002-04-25,776,Quebec
+512,mansion,8,64,1981-04-16,849,Mexico
+513,basement,4,95,1985-07-24,802,Sonora
+514,house,3,46,2010-05-22,878,Texas
+515,condo,8,84,2004-12-21,726,Nova Scotia
+516,mansion,7,47,1983-09-20,886,California
+517,basement,1,39,2007-08-19,856,New Mexico
+518,house,3,21,1993-05-09,757,California
+519,room,4,69,1998-11-12,839,Oaxaca
+520,basement,9,44,2007-11-19,846,Texas
+521,basement,5,84,2010-05-22,854,California
+522,basement,9,16,2003-03-11,898,Tlaxcala
+523,basement,1,61,1994-01-17,792,Tlaxcala
+524,mansion,7,62,2000-12-23,790,Sonora
+525,apartment,1,68,1985-05-05,858,Alberta
+526,basement,10,3,1999-10-18,757,Nova Scotia
+527,mansion,10,23,2004-02-06,722,New Jersey
+528,condo,2,10,1991-11-02,703,Chihuahua
+529,condo,5,31,1991-09-18,727,Nova Scotia
+530,apartment,5,8,2009-04-14,739,New Jersey
+531,mansion,3,84,2007-08-04,864,Quebec
+532,basement,6,63,2008-04-06,728,California
+533,apartment,7,43,1990-03-19,747,New Jersey
+534,condo,5,93,1985-11-25,752,Sonora
+535,room,1,28,2006-01-04,800,Nunavut
+536,condo,3,57,2008-06-06,828,Sonora
+537,mansion,4,80,1985-07-24,876,Baja California
+538,basement,4,67,1982-09-02,706,New Mexico
+539,house,10,41,1994-11-14,860,Sonora
+540,condo,5,16,1998-11-22,753,Mexico
+541,apartment,2,9,2007-03-14,775,Nova Scotia
+542,basement,10,32,2000-06-01,701,Mexico
+543,mansion,4,72,1996-01-05,742,Baja California
+544,condo,7,25,1983-10-09,724,Tlaxcala
+545,mansion,7,75,1990-10-29,825,Ontario
+546,house,7,37,1998-02-13,826,California
+547,apartment,10,51,1983-11-26,771,California
+548,villa,4,41,1982-01-29,843,Nunavut
+549,apartment,7,27,1993-01-29,871,Ontario
+550,room,7,70,1987-04-26,874,Tamaulipas
+551,room,9,30,1993-01-12,884,Mexico
+552,condo,3,21,2004-02-25,836,Tlaxcala
+553,apartment,6,76,1980-11-20,764,Texas
+554,apartment,6,14,1986-03-30,759,Tamaulipas
+555,villa,10,70,1985-01-27,725,Alberta
+556,condo,7,9,2008-08-04,736,Nunavut
+557,apartment,2,78,2001-08-22,899,New Mexico
+558,condo,10,70,1995-08-03,843,Ciudad de Mexico
+559,apartment,6,37,1981-04-19,835,Ontario
+560,basement,5,13,2004-02-08,710,Quebec
+561,condo,10,85,1996-11-24,722,Sonora
+562,condo,1,24,1986-05-26,849,Sonora
+563,villa,2,57,2009-04-14,873,Oaxaca
+564,villa,2,55,2007-10-11,795,Quebec
+565,mansion,5,91,2001-08-08,779,Ontario
+566,villa,6,5,2006-08-19,701,Quebec
+567,house,10,40,2000-10-21,799,Alberta
+568,basement,2,8,2005-03-18,780,Chihuahua
+569,condo,5,27,1984-02-13,857,Tamaulipas
+570,house,6,33,2010-02-21,837,Tlaxcala
+571,apartment,4,31,1995-02-07,719,New Jersey
+572,condo,8,11,2003-01-19,846,Alberta
+573,villa,7,39,2005-11-24,782,Nova Scotia
+574,apartment,10,38,1989-04-18,784,Ontario
+575,mansion,10,74,2009-09-21,851,Ciudad de Mexico
+576,villa,4,2,1993-05-09,761,New Mexico
+577,condo,5,70,1991-11-02,717,Ciudad de Mexico
+578,condo,1,37,1999-03-21,790,Tamaulipas
+579,basement,3,12,1997-05-06,898,Alberta
+580,condo,9,85,2005-07-13,744,Nunavut
+581,villa,6,39,2003-05-07,880,Baja California
+582,room,10,37,1993-02-26,751,Nunavut
+583,mansion,1,99,1999-02-23,858,Tlaxcala
+584,villa,5,55,1992-06-30,739,Mexico
+585,house,4,32,2009-02-19,715,Chihuahua
+586,room,7,70,2001-02-16,837,Chihuahua
+587,room,9,58,2002-01-19,800,Alberta
+588,villa,5,62,1994-04-10,864,Sonora
+589,mansion,1,7,1997-10-17,789,Nunavut
+590,mansion,3,17,1997-09-23,769,New Mexico
+591,mansion,7,22,2010-10-08,721,Oaxaca
+592,basement,1,22,1981-02-06,780,Baja California
+593,house,8,87,1998-08-30,886,Oaxaca
+594,villa,6,63,1987-01-28,821,Oaxaca
+595,house,7,43,2009-09-18,855,New Jersey
+596,house,4,6,2007-05-19,717,Baja California
+597,house,6,20,2005-12-11,895,Tlaxcala
+598,apartment,5,88,1996-09-07,840,Texas
+599,villa,8,76,1999-12-10,730,Baja California
+600,mansion,7,22,1981-05-13,763,Sonora
+601,villa,10,92,1987-04-22,899,Mexico
+602,basement,7,91,2006-10-12,788,New Mexico
+603,mansion,3,69,2003-04-10,709,Baja California
+604,condo,5,80,1981-06-26,767,Ciudad de Mexico
+605,villa,10,84,1987-01-28,878,Ciudad de Mexico
+606,basement,4,48,1987-06-30,809,New Mexico
+607,villa,6,56,1993-02-26,858,Tamaulipas
+608,villa,2,55,1994-05-21,835,Sonora
+609,condo,5,35,1988-07-04,795,California
+610,villa,9,56,1994-12-27,704,California
+611,house,10,31,2009-07-19,765,Tlaxcala
+612,villa,5,18,1998-05-28,750,New Jersey
+613,apartment,10,96,2001-02-16,873,Chihuahua
+614,room,3,69,2000-11-16,824,Sonora
+615,room,2,98,1994-09-13,845,New Mexico
+616,villa,5,13,1996-03-17,705,Ontario
+617,mansion,1,69,2003-10-28,871,Nunavut
+618,condo,9,47,2001-11-28,778,Sonora
+619,mansion,6,97,1981-02-06,781,California
+620,condo,8,91,2000-10-21,788,Quebec
+621,mansion,7,43,2002-02-16,886,Tamaulipas
+622,condo,7,48,1992-05-06,841,California
+623,apartment,10,92,2002-02-17,888,Baja California
+624,villa,8,76,1987-09-26,831,Sonora
+625,house,5,89,1988-06-19,814,Baja California
+626,villa,6,67,1989-02-24,872,New Mexico
+627,mansion,7,51,2010-11-28,858,Ciudad de Mexico
+628,basement,4,81,1991-01-07,865,Quebec
+629,house,1,52,2009-05-10,860,Nunavut
+630,house,7,34,1981-12-16,744,Ciudad de Mexico
+631,room,10,1,2004-04-18,766,Sonora
+632,room,9,38,1987-07-21,817,New Jersey
+633,basement,3,59,1985-11-25,710,New Jersey
+634,mansion,2,95,2002-06-21,807,Ciudad de Mexico
+635,apartment,2,84,2010-10-26,704,Nova Scotia
+636,mansion,3,88,2000-12-10,801,New Jersey
+637,mansion,5,26,1981-12-27,752,Oaxaca
+638,apartment,5,8,2003-12-12,877,Baja California
+639,house,6,59,2005-12-11,841,Mexico
+640,villa,5,83,1997-04-14,881,New Jersey
+641,apartment,10,94,1981-10-30,799,New Mexico
+642,villa,8,33,2009-09-09,855,Alberta
+643,house,4,33,2002-11-13,855,Oaxaca
+644,room,1,79,1988-12-04,780,Sonora
+645,room,4,34,2002-04-25,717,Nova Scotia
+646,room,10,56,1986-01-26,885,Nunavut
+647,mansion,5,58,1992-11-06,740,Nunavut
+648,room,3,91,2001-09-16,791,Quebec
+649,room,7,30,2001-02-02,882,Tlaxcala
+650,house,5,8,1995-05-27,757,New Mexico
+651,apartment,8,12,1987-12-20,746,Mexico
+652,condo,10,2,2002-08-29,891,Tlaxcala
+653,house,1,63,2007-08-19,834,Chihuahua
+654,apartment,5,15,2010-10-08,876,Nova Scotia
+655,condo,4,51,1988-11-08,825,Chihuahua
+656,basement,3,29,1996-10-20,771,Chihuahua
+657,mansion,10,49,1986-12-11,814,New Jersey
+658,apartment,8,75,1995-12-12,753,Ciudad de Mexico
+659,condo,1,0,2010-11-09,821,Alberta
+660,basement,10,36,2006-10-03,749,New Mexico
+661,villa,3,3,1993-04-08,798,Nunavut
+662,house,9,7,1981-01-12,796,New Jersey
+663,villa,2,59,2003-01-19,776,California
+664,condo,9,7,1990-01-24,732,Mexico
+665,apartment,2,55,1996-10-04,747,California
+666,basement,3,95,2002-01-17,874,Tlaxcala
+667,house,8,49,2005-10-05,860,New Jersey
+668,apartment,4,31,1989-04-26,849,Nova Scotia
+669,apartment,7,77,2004-10-27,842,Baja California
+670,condo,6,70,1993-08-19,836,Tlaxcala
+671,house,9,54,1995-12-08,868,Ciudad de Mexico
+672,house,5,95,2010-04-23,883,Ciudad de Mexico
+673,apartment,3,12,1991-08-10,714,Tlaxcala
+674,room,7,5,1991-08-19,862,Ciudad de Mexico
+675,room,9,60,1997-05-06,793,Ontario
+676,apartment,1,16,1990-05-03,707,Chihuahua
+677,house,3,50,2006-03-24,880,Chihuahua
+678,condo,9,34,1980-06-04,763,Alberta
+679,condo,5,4,1994-08-07,797,Mexico
+680,house,5,40,1997-04-14,732,New Jersey
+681,room,7,14,1987-01-22,872,Quebec
+682,condo,7,31,1993-05-09,841,Tlaxcala
+683,apartment,6,65,2006-07-13,799,Tamaulipas
+684,condo,3,83,2009-11-13,813,Baja California
+685,mansion,10,89,2003-04-06,836,California
+686,room,5,95,1983-09-30,750,Texas
+687,basement,9,41,2002-08-09,803,Texas
+688,villa,10,8,2002-06-18,775,Alberta
+689,basement,5,40,2006-12-09,768,Alberta
+690,house,9,64,2004-11-02,833,Ontario
+691,villa,6,93,2010-01-17,899,Alberta
+692,mansion,2,57,1983-04-30,821,Chihuahua
+693,apartment,7,10,2007-06-07,847,Mexico
+694,villa,1,67,1989-04-21,846,New Jersey
+695,room,4,89,1987-07-02,890,Alberta
+696,apartment,6,51,2000-07-10,817,Alberta
+697,mansion,9,21,1992-11-29,736,New Jersey
+698,house,4,72,1986-04-08,727,Nova Scotia
+699,room,7,93,1990-12-25,711,Ontario

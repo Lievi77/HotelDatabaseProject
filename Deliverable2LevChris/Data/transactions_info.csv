@@ -1,0 +1,201 @@
+transaction_id,type_of_payment,payment_status,host_collector_id,amount
+1000,Cash,Accepted,32,3864
+1001,Check,Not Accepted,60,21352
+1002,Check,Accepted,12,15987
+1003,Cash,Not Accepted,55,19905
+1004,Cash,Not Accepted,34,23644
+1005,Cash,Accepted,40,1003
+1006,Cash,Accepted,83,17742
+1007,Cash,Not Accepted,87,7098
+1008,Check,Accepted,67,7265
+1009,Check,Not Accepted,70,7638
+1010,Check,Accepted,86,7170
+1011,Check,Not Accepted,2,13638
+1012,Credit,Accepted,23,20623
+1013,Credit,Not Accepted,15,24352
+1014,Check,Not Accepted,64,27199
+1015,Credit,Accepted,38,9312
+1016,Credit,Not Accepted,64,12890
+1017,Credit,Accepted,61,7955
+1018,Credit,Not Accepted,53,21783
+1019,Cash,Not Accepted,70,28926
+1020,Credit,Not Accepted,11,14384
+1021,Credit,Accepted,99,5365
+1022,Credit,Not Accepted,47,16047
+1023,Credit,Accepted,60,1425
+1024,Check,Not Accepted,82,5583
+1025,Cash,Accepted,1,25249
+1026,Cash,Accepted,51,16836
+1027,Check,Not Accepted,58,29811
+1028,Check,Accepted,49,25679
+1029,Credit,Accepted,66,25474
+1030,Credit,Accepted,54,1840
+1031,Check,Not Accepted,72,18167
+1032,Cash,Not Accepted,62,26652
+1033,Check,Not Accepted,44,52
+1034,Credit,Not Accepted,58,19657
+1035,Cash,Accepted,81,5807
+1036,Credit,Accepted,11,26164
+1037,Credit,Not Accepted,4,27583
+1038,Credit,Accepted,10,28446
+1039,Cash,Not Accepted,1,24712
+1040,Check,Accepted,34,3588
+1041,Credit,Accepted,44,9513
+1042,Cash,Accepted,20,8363
+1043,Credit,Accepted,84,8943
+1044,Credit,Not Accepted,58,23024
+1045,Check,Not Accepted,60,3742
+1046,Cash,Not Accepted,49,11251
+1047,Check,Accepted,33,3564
+1048,Check,Accepted,77,14145
+1049,Cash,Accepted,2,13020
+1050,Cash,Accepted,92,5251
+1051,Check,Not Accepted,69,27272
+1052,Cash,Not Accepted,28,17168
+1053,Credit,Accepted,50,22116
+1054,Credit,Not Accepted,84,20675
+1055,Check,Accepted,94,9785
+1056,Cash,Accepted,6,10040
+1057,Cash,Accepted,39,9761
+1058,Credit,Accepted,53,18512
+1059,Check,Accepted,1,18374
+1060,Cash,Accepted,72,15102
+1061,Cash,Accepted,48,6567
+1062,Check,Accepted,26,18789
+1063,Credit,Not Accepted,75,6361
+1064,Check,Accepted,85,12782
+1065,Check,Not Accepted,2,10661
+1066,Credit,Not Accepted,36,593
+1067,Cash,Accepted,41,26580
+1068,Credit,Accepted,43,14066
+1069,Cash,Not Accepted,86,3160
+1070,Check,Not Accepted,87,17509
+1071,Check,Accepted,8,23773
+1072,Cash,Accepted,17,5561
+1073,Cash,Accepted,34,24875
+1074,Check,Not Accepted,47,11104
+1075,Check,Accepted,37,7707
+1076,Credit,Not Accepted,17,19005
+1077,Credit,Accepted,41,1283
+1078,Check,Accepted,48,28383
+1079,Cash,Accepted,43,3759
+1080,Credit,Not Accepted,9,18704
+1081,Credit,Accepted,72,2679
+1082,Check,Not Accepted,37,18496
+1083,Credit,Accepted,58,29386
+1084,Check,Accepted,5,27125
+1085,Check,Accepted,78,21969
+1086,Cash,Accepted,52,3772
+1087,Cash,Accepted,30,25740
+1088,Credit,Not Accepted,20,3787
+1089,Check,Accepted,87,7911
+1090,Cash,Accepted,55,29844
+1091,Check,Not Accepted,70,8304
+1092,Credit,Not Accepted,40,3282
+1093,Cash,Not Accepted,5,894
+1094,Cash,Not Accepted,92,19549
+1095,Check,Not Accepted,50,10266
+1096,Check,Accepted,8,29931
+1097,Check,Not Accepted,14,8195
+1098,Cash,Not Accepted,84,11660
+1099,Check,Accepted,69,6811
+1100,Check,Accepted,31,11812
+1101,Cash,Not Accepted,11,24684
+1102,Check,Accepted,83,18821
+1103,Credit,Not Accepted,29,12796
+1104,Check,Accepted,41,6122
+1105,Check,Not Accepted,31,10956
+1106,Cash,Accepted,31,7215
+1107,Cash,Accepted,51,2371
+1108,Check,Accepted,93,2462
+1109,Cash,Accepted,37,24600
+1110,Check,Not Accepted,60,28268
+1111,Cash,Accepted,64,25486
+1112,Check,Accepted,65,21799
+1113,Cash,Accepted,99,4901
+1114,Cash,Not Accepted,39,3503
+1115,Credit,Not Accepted,16,29287
+1116,Cash,Accepted,69,29835
+1117,Credit,Accepted,99,10357
+1118,Credit,Accepted,22,9796
+1119,Check,Accepted,6,23424
+1120,Credit,Accepted,32,25487
+1121,Cash,Not Accepted,55,17999
+1122,Check,Not Accepted,68,14855
+1123,Cash,Not Accepted,43,5621
+1124,Check,Not Accepted,3,25988
+1125,Credit,Not Accepted,73,620
+1126,Cash,Not Accepted,74,4532
+1127,Credit,Accepted,17,8491
+1128,Check,Not Accepted,72,13143
+1129,Cash,Accepted,29,15926
+1130,Cash,Accepted,67,10396
+1131,Credit,Not Accepted,87,20943
+1132,Credit,Accepted,30,10256
+1133,Check,Not Accepted,28,23359
+1134,Check,Not Accepted,71,20031
+1135,Credit,Not Accepted,82,7192
+1136,Cash,Accepted,97,16768
+1137,Credit,Not Accepted,20,16766
+1138,Cash,Not Accepted,38,22694
+1139,Check,Not Accepted,21,22980
+1140,Credit,Not Accepted,76,2785
+1141,Cash,Not Accepted,22,5105
+1142,Check,Not Accepted,27,18662
+1143,Credit,Accepted,63,22336
+1144,Check,Not Accepted,49,16878
+1145,Cash,Accepted,67,2963
+1146,Check,Accepted,34,24147
+1147,Cash,Accepted,99,20215
+1148,Credit,Accepted,56,27885
+1149,Cash,Not Accepted,55,13017
+1150,Cash,Not Accepted,56,4140
+1151,Credit,Not Accepted,27,3906
+1152,Check,Not Accepted,15,21644
+1153,Check,Not Accepted,31,12415
+1154,Credit,Accepted,24,17314
+1155,Check,Accepted,3,20563
+1156,Credit,Accepted,33,6771
+1157,Cash,Not Accepted,18,17772
+1158,Cash,Not Accepted,39,19194
+1159,Check,Not Accepted,21,17871
+1160,Check,Not Accepted,53,28040
+1161,Cash,Accepted,73,28801
+1162,Check,Accepted,36,26561
+1163,Cash,Accepted,15,18656
+1164,Credit,Accepted,69,9713
+1165,Credit,Accepted,9,16397
+1166,Check,Not Accepted,55,16484
+1167,Credit,Not Accepted,97,17315
+1168,Check,Accepted,15,14494
+1169,Credit,Not Accepted,44,9988
+1170,Credit,Not Accepted,43,25661
+1171,Credit,Not Accepted,14,21223
+1172,Check,Not Accepted,26,18249
+1173,Cash,Not Accepted,81,19601
+1174,Credit,Accepted,59,19689
+1175,Credit,Not Accepted,95,23336
+1176,Check,Accepted,57,20318
+1177,Credit,Accepted,46,17243
+1178,Cash,Not Accepted,74,13955
+1179,Check,Not Accepted,79,19151
+1180,Credit,Accepted,63,24438
+1181,Cash,Not Accepted,80,681
+1182,Check,Accepted,81,25522
+1183,Check,Not Accepted,22,25150
+1184,Cash,Accepted,44,29907
+1185,Check,Not Accepted,87,17834
+1186,Check,Accepted,59,27295
+1187,Check,Not Accepted,21,15307
+1188,Credit,Accepted,34,16721
+1189,Cash,Not Accepted,8,11639
+1190,Cash,Not Accepted,2,5379
+1191,Credit,Accepted,88,3050
+1192,Check,Not Accepted,77,9975
+1193,Cash,Accepted,30,29034
+1194,Check,Not Accepted,8,2454
+1195,Credit,Not Accepted,59,16762
+1196,Credit,Accepted,21,9729
+1197,Credit,Not Accepted,45,19978
+1198,Credit,Accepted,50,18385
+1199,Check,Accepted,61,25880
