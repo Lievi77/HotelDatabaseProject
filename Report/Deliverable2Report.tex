@@ -268,11 +268,11 @@
 	 		Please \textbf{do not use} Python 2.X binaries because there \textbf{WILL} be errors.
 	 	\end{remark}
 	 	
-	 	\item  Once in a virtual environment run the command: \texttt{pip install --editable}. \\
+	 	\item  Once in a virtual environment run the command: \texttt{pip install --editable .} \\\\
 	 	What this is essentially telling Python is to install the package in the current directory (which you guessed it, is our CLI Tool), the editable option will link the package to the directory location and mitigate any nasty import errors.
 	 	
-	 	\item If on a UNIX system you might have to run the following instead:
-	 	\texttt{pip3 install --editable}. 
+	 	\item If on a UNIX system you might have to run the following instead: \\
+	 	\texttt{pip3 install --editable .} \\ \\
 	 	This specifies to your system to select a Python 3.X version if a Python 2.X is also installed (which is usally the case with Linux distros)
 	 	
 	 	\item Once installed verify installation by checking for the package `travelCLI   v1.0`
