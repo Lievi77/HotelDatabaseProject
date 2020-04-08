@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.20)  7 APR 2020 20:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.1.20)  7 APR 2020 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -745,17 +745,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 108.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 109.
  [1]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
@@ -763,19 +773,19 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 <Query1Output.png, id=17, 1307.88625pt x 572.1375pt>
 File: Query1Output.png Graphic file (type png)
 <use Query1Output.png>
-Package pdftex.def Info: Query1Output.png  used on input line 144.
+Package pdftex.def Info: Query1Output.png  used on input line 145.
 (pdftex.def)             Requested size: 483.69684pt x 211.59152pt.
 [2 <./Query1Output.png>] (./QUERIES.sql)
 <Query2Output.png, id=25, 894.34125pt x 705.63625pt>
 File: Query2Output.png Graphic file (type png)
 <use Query2Output.png>
-Package pdftex.def Info: Query2Output.png  used on input line 155.
+Package pdftex.def Info: Query2Output.png  used on input line 156.
 (pdftex.def)             Requested size: 483.69684pt x 381.64085pt.
  (./QUERIES.sql)
 <Query3Output.png, id=26, 1545.775pt x 91.34125pt>
 File: Query3Output.png Graphic file (type png)
 <use Query3Output.png>
-Package pdftex.def Info: Query3Output.png  used on input line 164.
+Package pdftex.def Info: Query3Output.png  used on input line 165.
 (pdftex.def)             Requested size: 483.69684pt x 28.5817pt.
 
 
@@ -785,55 +795,60 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Query4Output.png, id=31, 793.96625pt x 664.4825pt>
 File: Query4Output.png Graphic file (type png)
 <use Query4Output.png>
-Package pdftex.def Info: Query4Output.png  used on input line 174.
+Package pdftex.def Info: Query4Output.png  used on input line 175.
 (pdftex.def)             Requested size: 386.95894pt x 323.85533pt.
  [4 <./Query3Output.png> <./Query4Output.png>] (./Query5.sql)
 <Query5Output.png, id=37, 1369.115pt x 643.40375pt>
 File: Query5Output.png Graphic file (type png)
 <use Query5Output.png>
-Package pdftex.def Info: Query5Output.png  used on input line 185.
+Package pdftex.def Info: Query5Output.png  used on input line 186.
 (pdftex.def)             Requested size: 386.95894pt x 181.85025pt.
  (./QUERIES.sql)
 <Query6Output.png, id=38, 1486.55376pt x 722.7pt>
 File: Query6Output.png Graphic file (type png)
 <use Query6Output.png>
-Package pdftex.def Info: Query6Output.png  used on input line 196.
+Package pdftex.def Info: Query6Output.png  used on input line 197.
 (pdftex.def)             Requested size: 386.95894pt x 188.11812pt.
  [5 <./Query5Output.png> <./Query6Output.png>] (./QUERIES.sql)
 File: Query6Output.png Graphic file (type png)
 <use Query6Output.png>
-Package pdftex.def Info: Query6Output.png  used on input line 207.
+Package pdftex.def Info: Query6Output.png  used on input line 208.
 (pdftex.def)             Requested size: 386.95894pt x 188.11812pt.
  [6] (./QUERIES.sql)
 <Query8Output.png, id=48, 1039.885pt x 595.22375pt>
 File: Query8Output.png Graphic file (type png)
 <use Query8Output.png>
-Package pdftex.def Info: Query8Output.png  used on input line 218.
+Package pdftex.def Info: Query8Output.png  used on input line 219.
 (pdftex.def)             Requested size: 338.5863pt x 193.79964pt.
  (./QUERIES.sql)
 <Query9Output.png, id=49, 1217.54875pt x 646.415pt>
 File: Query9Output.png Graphic file (type png)
 <use Query9Output.png>
-Package pdftex.def Info: Query9Output.png  used on input line 227.
+Package pdftex.def Info: Query9Output.png  used on input line 228.
 (pdftex.def)             Requested size: 290.22105pt x 154.07751pt.
  (./QUERIES.sql
 [7 <./Query8Output.png> <./Query9Output.png>])
 <Query10Output.png, id=55, 657.45625pt x 373.395pt>
 File: Query10Output.png Graphic file (type png)
 <use Query10Output.png>
-Package pdftex.def Info: Query10Output.png  used on input line 236.
+Package pdftex.def Info: Query10Output.png  used on input line 237.
 (pdftex.def)             Requested size: 290.22105pt x 164.82986pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
+
+ []
+
+[8 <./Query10Output.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--277
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 
  []
 
-[8 <./Query10Output.png>] [9] (./Deliverable2Report.aux) ) 
+[9] (./Deliverable2Report.aux) ) 
 Here is how much of TeX's memory you used:
  24974 strings out of 494553
  615818 string characters out of 6177377
@@ -842,17 +857,17 @@ Here is how much of TeX's memory you used:
  10178 words of font info for 39 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  62i,7n,96p,714b,1770s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Deliverable2Report.pdf (10 pages, 580691 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Deliverable2Report.pdf (10 pages, 583953 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  58 compressed objects within 1 object stream

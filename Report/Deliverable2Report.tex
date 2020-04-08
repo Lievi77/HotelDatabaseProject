@@ -98,8 +98,9 @@
 
 	\section{Languages Used}
 	
-	To build the database project, the team used a combination of Python and SQL PostgreSQL flavour.
-	In addition, to build the web application interface, the team used CLI in order to ensure correctness. \\
+	To build the database project, the team used a combination of Python and SQL PostgreSQL flavour.\\\\
+	Python was chosen in order to ease work and concentrate on the main task of this project: learn SQL and how to manage a database.\\ \\
+	The team decided to go with a CLI interface because it was the cleanest solution; and made it so we could focus on other aspects of the project, however the main reason was robustness. A CLI can be a very powerful tool, a good example is Heroku, and even though ours is nowhere nearly as sophisticated, with a few lines of code we were able to create and read information remotely.\\
 	
 	The following DDLs were used in order to create our database:
 	
@@ -249,7 +250,11 @@
 	\begin{itemize}
 		\item Restore the provided backup file in order to access the schema and tables.
 		
-		\item In the \textsl{Data} folder, execute the provided python script \textbf{data\_insertor.py} with the following command: \texttt{python3 data\_insertor.py} 
+		\item In the \textsl{Data} folder, execute the provided python script \textbf{data\_insertor.py} with the following command: \texttt{python3 data\_insertor.py}
+		
+		\begin{remark}
+			You will need to modify the connection fields and enter your own credentials in line 18 of data\_insertor in order to ensure proper functioning. 
+		\end{remark} 
 		
 		\item Now de database is populated.
 		
@@ -287,6 +292,12 @@
 	 	
 	 \end{itemize}
 	 
+ 	\section{Final Thoughts}
  
+ 		From the project we learned a lot about how databases work. We were able to create our own database with different own-designed schema. From the project we learned a lot about how a DBMS can interact with a server, or a user. \\\\
+ 		If we had more time on our hands we would have liked to add more features to our CLI with main being making use of prompts to help with interactivity and automating the sign-in process. We would have also liked to polish our outputs by making use of formatted tables.
+ 		
+ 		In summation however we feel that with the time and responsibilities we had we executed to our best effort and are pleased with our current result
+ 		
 	
 \end{document}
